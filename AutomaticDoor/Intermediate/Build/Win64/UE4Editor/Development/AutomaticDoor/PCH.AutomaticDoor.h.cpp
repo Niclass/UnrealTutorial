@@ -1,1 +1,1 @@
-#include "C:\Users\Spellabbet\Documents\Unreal Projects\AutomaticDoor\Source\AutomaticDoor\AutomaticDoor.h"
+#include "C:\Users\Niclas\Documents\GitHub\UnrealTutorial\AutomaticDoor\Source\AutomaticDoor\AutomaticDoor.h"
