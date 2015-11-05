@@ -1,0 +1,1593 @@
+﻿[2015.11.02-22.53.39:452][  0]Log file open, 11/02/15 23:53:39
+[2015.11.02-22.53.39:452][  0]LogInit:Display: Running engine for game: AutomaticDoor
+[2015.11.02-22.53.39:452][  0]LogInit:Display: RandInit(1721539046) SRandInit(1721539047).
+[2015.11.02-22.53.39:452][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.02-22.53.39:452][  0]LogStats: Stats thread started at 0.066108
+[2015.11.02-22.53.39:452][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-AutomaticDoor.dll
+[2015.11.02-22.53.44:393][  0]Running D:/Programs/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe AutomaticDoor Development Win64 -project="C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/AutomaticDoor.uproject" -rocket -editorrecompile -progress -noubtmakefiles
+[2015.11.02-22.54.02:205][  0]@progress push 5%
+[2015.11.02-22.54.02:910][  0]Parsing headers for AutomaticDoorEditor
+[2015.11.02-22.54.02:910][  0]  Running UnrealHeaderTool "C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/AutomaticDoor.uproject" "C:\Users\snabel\Documents\GitHub\UnrealTutorial\AutomaticDoor\Intermediate\Build\Win64\AutomaticDoorEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2015.11.02-22.54.10:064][  0]Reflection code generated for AutomaticDoorEditor in 7,1848337 seconds
+[2015.11.02-22.54.10:166][  0]@progress pop
+[2015.11.02-22.54.11:980][  0]Performing 10 actions (4 in parallel)
+[2015.11.02-22.54.11:980][  0]PCH.AutomaticDoor.h.cpp
+[2015.11.02-22.54.19:729][  0]AutomaticDoorHUD.cpp
+[2015.11.02-22.54.19:729][  0]AutomaticDoorCharacter.cpp
+[2015.11.02-22.54.19:729][  0]AutomaticDoor.generated.cpp
+[2015.11.02-22.54.19:729][  0]AutomaticDoorGameMode.cpp
+[2015.11.02-22.54.20:130][  0]AutomaticDoorProjectile.cpp
+[2015.11.02-22.54.20:231][  0]Trigger.cpp
+[2015.11.02-22.54.20:432][  0]DoorWall.cpp
+[2015.11.02-22.54.20:533][  0]AutomaticDoor.cpp
+[2015.11.02-22.54.21:339][  0][10/10] Link UE4Editor-AutomaticDoor.dll
+[2015.11.02-22.54.21:540][  0]   Creating library C:\Users\snabel\Documents\GitHub\UnrealTutorial\AutomaticDoor\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-AutomaticDoor.lib and object C:\Users\snabel\Documents\GitHub\UnrealTutorial\AutomaticDoor\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-AutomaticDoor.exp
+[2015.11.02-22.54.21:943][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.02-22.54.21:943][  0]Total build time: 37,50 seconds
+[2015.11.02-22.54.22:227][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.11.02-22.54.22:227][  0]LogInit: API Version: 2672455
+[2015.11.02-22.54.22:227][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.11.02-22.54.22:227][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.02-22.54.22:227][  0]LogInit: Build Configuration: Development
+[2015.11.02-22.54.22:227][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.02-22.54.22:227][  0]LogInit: Command line:  
+[2015.11.02-22.54.22:227][  0]LogInit: Base directory: D:/Programs/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.02-22.54.22:227][  0]LogInit: Rocket: 1
+[2015.11.02-22.54.22:248][  0]LogInit: Using libcurl 7.41.0
+[2015.11.02-22.54.22:248][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.02-22.54.22:248][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.02-22.54.22:248][  0]LogInit:  - other features:
+[2015.11.02-22.54.22:248][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.02-22.54.22:248][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.02-22.54.22:248][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.02-22.54.22:248][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.02-22.54.22:248][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.02-22.54.22:248][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.02-22.54.22:248][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.02-22.54.22:248][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.02-22.54.22:248][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.02-22.54.22:248][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.02-22.54.22:281][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.02-22.54.22:286][  0]LogInit: Object subsystem initialized
+[2015.11.02-22.54.22:288][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.02-22.54.22:288][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.02-22.54.22:306][  0]LogInit: Computer: SNABELSLYNA
+[2015.11.02-22.54.22:306][  0]LogInit: User: snabel
+[2015.11.02-22.54.22:306][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.02-22.54.22:306][  0]LogInit: High frequency timer resolution =3.415989 MHz
+[2015.11.02-22.54.22:306][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.11.02-22.54.22:306][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.02-22.54.22:306][  0]LogMemory: Process Physical Memory: 57.61 MB used, 57.61 MB peak
+[2015.11.02-22.54.22:306][  0]LogMemory: Process Virtual Memory: 55.65 MB used, 55.65 MB peak
+[2015.11.02-22.54.22:306][  0]LogMemory: Physical Memory: 3345.32 MB used, 8134.06 MB total
+[2015.11.02-22.54.22:306][  0]LogMemory: Virtual Memory: 382.39 MB used, 134217728.00 MB total
+[2015.11.02-22.54.22:471][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.11.02-22.54.23:087][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.11.02-22.54.23:087][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 1 output[s]
+[2015.11.02-22.54.23:088][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.02-22.54.23:088][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 0 output[s]
+[2015.11.02-22.54.23:088][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.02-22.54.23:092][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.02-22.54.23:092][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.02-22.54.23:100][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.02-22.54.23:114][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Intermediate/Shaders/WorkingDirectory/10692/).
+[2015.11.02-22.54.23:114][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Intermediate/Shaders/tmp/37DD24974B3CE0A6B1447C964E085B1E/'.
+[2015.11.02-22.54.23:114][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.02-22.54.23:946][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.02-22.54.23:949][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.02-22.54.23:953][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.02-22.54.23:957][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.02-22.54.23:960][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.02-22.54.23:963][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.02-22.54.23:965][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.02-22.54.23:968][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.02-22.54.23:970][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.02-22.54.23:973][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.02-22.54.23:975][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.02-22.54.23:978][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.02-22.54.23:978][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.02-22.54.23:994][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.02-22.54.23:996][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.02-22.54.23:999][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.02-22.54.24:002][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.02-22.54.24:002][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.02-22.54.24:052][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.02-22.54.24:089][  0]LogDerivedDataCache: Loaded boot cache 0.04s 43MB C:/Users/snabel/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.02-22.54.24:089][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/snabel/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.02-22.54.24:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.02-22.54.24:089][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.02-22.54.24:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.02-22.54.24:089][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.02-22.54.24:204][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.02-22.54.24:216][  0]LogDerivedDataCache: Using Local data cache path C:/Users/snabel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.02-22.54.24:344][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.02-22.54.24:346][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.02-22.54.24:438][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.02-22.54.24:438][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.02-22.54.24:615][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.02-22.54.25:130][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.02-22.54.25:195][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.54.25:275][  0]LogLinker:Warning: Asset 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.54.25:276][  0]LogLinker:Warning: Asset 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.54.25:277][  0]LogLinker:Warning: Asset 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.54.25:278][  0]LogLinker:Warning: Asset 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.54.25:278][  0]LogLinker:Warning: Asset 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.54.25:279][  0]LogLinker:Warning: Asset 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.54.25:279][  0]LogLinker:Warning: Asset 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.54.25:280][  0]LogLinker:Warning: Asset 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.54.25:331][  0]LogLinker:Warning: Asset 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.54.25:363][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.54.25:374][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.54.25:374][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.54.25:376][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.54.25:379][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.54.25:381][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.54.25:582][  0]LogTexture:Display: Building textures: White (AutoDXT)
+[2015.11.02-22.54.25:660][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.11.02-22.54.25:767][  0]SourceControl: Info Source control is disabled
+[2015.11.02-22.54.25:772][  0]SourceControl: Info Source control is disabled
+[2015.11.02-22.54.25:778][  0]SourceControl: Info Source control is disabled
+[2015.11.02-22.54.25:783][  0]SourceControl: Info Source control is disabled
+[2015.11.02-22.54.25:861][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.54.25:907][  0]LogObj: 34916 objects as part of root set at end of initial load.
+[2015.11.02-22.54.25:907][  0]LogUObjectAllocator: 8417352 out of 0 bytes used by permanent object pool.
+[2015.11.02-22.54.25:954][  0]LogEngine: Initializing Engine...
+[2015.11.02-22.54.25:955][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.02-22.54.25:955][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.02-22.54.26:051][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.02-22.54.26:056][  0]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.02-22.54.26:072][  0]LogInit: FAudioDevice initialized.
+[2015.11.02-22.54.26:090][  0]LogDerivedDataCache: Saved boot cache 0.02s 44MB C:/Users/snabel/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.02-22.54.26:094][  0]LogInit: Texture streaming: Enabled
+[2015.11.02-22.54.26:097][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.02-22.54.26:097][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.11.02-22.54.26:097][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fcf2056d41add8e83a7ca0a198c79fb6|02468cb7164248659234c918f7d8f06b|43049118-77b7-47eb-aed6-017bd9278743
+[2015.11.02-22.54.26:097][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.02-22.54.26:106][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.02-22.54.26:123][  0]LogInit: Transaction tracking system initialized
+[2015.11.02-22.54.26:146][  0]BlueprintLog: New page: Editor Load
+[2015.11.02-22.54.26:226][  0]LocalizationService: Info Localization service is disabled
+[2015.11.02-22.54.26:280][  0]LogConsoleResponse:Display: 
+[2015.11.02-22.54.26:375][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.02-22.54.26:380][  0]LogFileCache: Scanning file cache for directory 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/' took 0.01s
+[2015.11.02-22.54.26:407][  0]SourceControl: Info Source control is disabled
+[2015.11.02-22.54.26:407][  0]Cmd: MAP LOAD FILE="C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.02-22.54.26:408][  0]LightingResults: New page: Lighting Build
+[2015.11.02-22.54.26:409][  0]MapCheck: New page: Map Check
+[2015.11.02-22.54.26:409][  0]LightingResults: New page: Lighting Build
+[2015.11.02-22.54.26:422][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002908196160
+[2015.11.02-22.54.26:590][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.54.26:855][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.02-22.54.26:867][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.02-22.54.26:868][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.02-22.54.26:922][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.337ms to complete.
+[2015.11.02-22.54.26:922][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.514
+[2015.11.02-22.54.26:989][  0]LogCollectionManager: Loaded 0 collections in 0.001321 seconds
+[2015.11.02-22.54.27:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/Collections/' took 0.01s
+[2015.11.02-22.54.27:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Developers/snabel/Collections/' took 0.01s
+[2015.11.02-22.54.27:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Collections/' took 0.01s
+[2015.11.02-22.54.27:032][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 1873 classes and 335 folders.
+[2015.11.02-22.54.27:035][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.02-22.54.27:039][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.11.02-22.54.27:070][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.11.02-22.54.27:100][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2015.11.02-22.54.27:117][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.02-22.54.27:124][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.02-22.54.27:148][  0]LogLoad: Full Startup: 48.37 seconds (BP compile: 0.10 seconds)
+[2015.11.02-22.54.27:212][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.02-22.54.27:326][  0]LogRenderer: Reallocating scene render targets to support 960x904 (Frame:2).
+[2015.11.02-22.54.31:663][456]LogAssetRegistry: Asset discovery search completed in 6.0130 seconds
+[2015.11.02-22.54.31:663][456]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.02-22.54.31:663][456]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2015.11.02-22.54.38:671][274]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.54.38:671][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.02-22.54.38:672][274]PIE: New page: PIE session: FirstPersonExampleMap (Nov 3, 2015, 12:54:38 AM)
+[2015.11.02-22.54.38:672][274]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.02-22.54.38:673][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.54.38:709][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037763s)
+[2015.11.02-22.54.38:710][274]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.02-22.54.38:710][274]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2015.11.02-22.54.38:710][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.038665s)
+[2015.11.02-22.54.38:710][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-22.54.38:710][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.02-22.54.38:710][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.02-22.54.38:730][274]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.02-22.54.38:734][274]LogInit: FAudioDevice initialized.
+[2015.11.02-22.54.38:783][274]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2015.11.02-22.54.38:798][274]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.02-22.54.38:798][274]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.02-23.54.38
+[2015.11.02-22.54.38:798][274]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-22.54.38:798][274]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-22.54.38:801][274]LogWorld: Bringing up level for play took: 0.017653
+[2015.11.02-22.54.38:803][274]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.157
+[2015.11.02-22.54.38:808][274]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.54.50:397][652]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.54.50:438][652]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.54.50:449][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002966EA8720
+[2015.11.02-22.54.53:088][953]LogEditorViewport: Clicking on Actor (LMB): basicai_C (basicai4)
+[2015.11.02-22.54.55:043][178]Cmd: DELETE
+[2015.11.02-22.54.55:043][178]Cmd: ACTOR DELETE
+[2015.11.02-22.54.55:052][178]LogEditorActor: Deleted Actor: basicai_C
+[2015.11.02-22.54.55:062][178]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.11.02-22.54.55:534][235]LogEditorViewport: Clicking on Actor (LMB): basicai_C (basicai)
+[2015.11.02-22.54.55:623][236]Cmd: DELETE
+[2015.11.02-22.54.55:623][236]Cmd: ACTOR DELETE
+[2015.11.02-22.54.55:624][236]LogEditorActor: Deleted Actor: basicai_C
+[2015.11.02-22.54.55:634][236]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.11.02-22.54.56:192][303]LogEditorViewport: Clicking on Actor (LMB): basicai_C (basicai2)
+[2015.11.02-22.54.56:272][304]Cmd: DELETE
+[2015.11.02-22.54.56:272][304]Cmd: ACTOR DELETE
+[2015.11.02-22.54.56:273][304]LogEditorActor: Deleted Actor: basicai_C
+[2015.11.02-22.54.56:283][304]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.11.02-22.54.56:825][369]LogEditorViewport: Clicking on Actor (LMB): basicai_C (basicai3)
+[2015.11.02-22.54.56:892][369]Cmd: DELETE
+[2015.11.02-22.54.56:892][369]Cmd: ACTOR DELETE
+[2015.11.02-22.54.56:893][369]LogEditorActor: Deleted Actor: basicai_C
+[2015.11.02-22.54.56:905][369]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.11.02-22.54.57:421][431]LogEditorViewport: Clicking on Actor (LMB): basicai_C (basicai5)
+[2015.11.02-22.55.01:230][869]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.02-22.55.01:625][869]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
+[2015.11.02-22.55.29:220][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.02-22.55.29:220][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-22.55.29:220][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.02-22.55.29:230][481]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.11.02-22.55.39:196][649]BlueprintLog: New page: Compile basicai
+[2015.11.02-22.55.39:362][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.02-22.55.39:362][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-22.55.39:387][649]BlueprintEditorCompileResults: Info [0120.61] Compile of basicai successful! [in 190 ms]
+[2015.11.02-22.55.47:180][516]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-22.55.47:180][516]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-22.55.49:270][746]BlueprintLog: New page: Compile basicai
+[2015.11.02-22.55.49:364][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.11.02-22.55.49:364][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.11.02-22.55.49:388][746]BlueprintEditorCompileResults: Info [0130.62] Compile of basicai successful! [in 117 ms]
+[2015.11.02-22.55.54:298][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-22.55.54:299][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-22.56.43:939][349]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.11.02-22.56.43:939][349]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.11.02-22.57.00:720][298]BlueprintLog: New page: Compile basicai
+[2015.11.02-22.57.00:887][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.11.02-22.57.00:887][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.11.02-22.57.00:913][298]BlueprintEditorCompileResults: Info [0202.14] Compile of basicai successful! [in 192 ms]
+[2015.11.02-22.57.01:359][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/basicai" FILE="C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset" SILENT=true
+[2015.11.02-22.57.01:387][343]LogSavePackage: Save=21.727530ms
+[2015.11.02-22.57.01:387][343]LogSavePackage: Moving 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/basicai955A4D3F4B98ADD8B5FC0EA9D4D234BB.tmp' to 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset'
+[2015.11.02-22.57.01:388][343]LogSavePackage: Total save time: 28.143827ms
+[2015.11.02-22.57.01:388][343]LogSavePackage:Warning: Finished SavePackage C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset
+[2015.11.02-22.57.10:703][425]Cmd: DELETE
+[2015.11.02-22.57.10:703][425]Cmd: ACTOR DELETE
+[2015.11.02-22.57.13:085][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-22.57.13:085][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-22.57.13:106][425]LogEditorActor: Deleted 0 Actors (2.403 secs)
+[2015.11.02-22.57.28:437][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.57.28:437][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.02-22.57.28:437][127]PIE: New page: PIE session: FirstPersonExampleMap (Nov 3, 2015, 12:57:28 AM)
+[2015.11.02-22.57.28:437][127]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.02-22.57.28:439][127]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.57.28:472][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034899s)
+[2015.11.02-22.57.28:473][127]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.02-22.57.28:473][127]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2015.11.02-22.57.28:473][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035689s)
+[2015.11.02-22.57.28:473][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-22.57.28:473][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-22.57.28:499][127]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.02-22.57.28:503][127]LogInit: FAudioDevice initialized.
+[2015.11.02-22.57.28:537][127]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2015.11.02-22.57.28:552][127]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.02-22.57.28:552][127]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.02-23.57.28
+[2015.11.02-22.57.28:552][127]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-22.57.28:552][127]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-22.57.28:554][127]LogWorld: Bringing up level for play took: 0.015498
+[2015.11.02-22.57.28:556][127]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.091
+[2015.11.02-22.57.28:556][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.57.38:049][260]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.57.38:143][260]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.57.38:164][260]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000029152C6C00
+[2015.11.02-22.58.14:982][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-22.58.14:982][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-22.58.56:414][833]BlueprintLog: New page: Compile basicai
+[2015.11.02-22.58.56:517][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.11.02-22.58.56:517][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2015.11.02-22.58.56:542][833]BlueprintEditorCompileResults: Info [0317.77] Compile of basicai successful! [in 127 ms]
+[2015.11.02-22.58.57:024][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/basicai" FILE="C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset" SILENT=true
+[2015.11.02-22.58.57:062][881]LogSavePackage: Save=27.477840ms
+[2015.11.02-22.58.57:062][881]LogSavePackage: Moving 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/basicai19F05FD347A9E96F1ED2B488F86D99D6.tmp' to 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset'
+[2015.11.02-22.58.57:064][881]LogSavePackage: Total save time: 31.615734ms
+[2015.11.02-22.58.57:064][881]LogSavePackage:Warning: Finished SavePackage C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset
+[2015.11.02-22.58.58:852][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.58.58:852][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.02-22.58.58:852][ 87]PIE: New page: PIE session: FirstPersonExampleMap (Nov 3, 2015, 12:58:58 AM)
+[2015.11.02-22.58.58:852][ 87]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.02-22.58.58:854][ 87]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-22.58.58:887][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035454s)
+[2015.11.02-22.58.58:888][ 87]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.02-22.58.58:888][ 87]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2015.11.02-22.58.58:888][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036259s)
+[2015.11.02-22.58.58:888][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-22.58.58:888][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-22.58.58:914][ 87]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.02-22.58.58:919][ 87]LogInit: FAudioDevice initialized.
+[2015.11.02-22.58.58:950][ 87]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2015.11.02-22.58.58:965][ 87]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.02-22.58.58:965][ 87]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.02-23.58.58
+[2015.11.02-22.58.58:965][ 87]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-22.58.58:965][ 87]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-22.58.58:967][ 87]LogWorld: Bringing up level for play took: 0.015415
+[2015.11.02-22.58.58:969][ 87]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.322
+[2015.11.02-22.58.58:969][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.59.07:988][165]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.59.08:080][165]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-22.59.08:102][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002945BB11C0
+[2015.11.02-23.00.54:475][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-23.00.54:475][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-23.01.13:374][953]BlueprintLog: New page: Compile basicai
+[2015.11.02-23.01.13:480][953]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.11.02-23.01.13:480][953]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_4) Not registered. Aborting.
+[2015.11.02-23.01.13:505][953]BlueprintEditorCompileResults: Info [0454.73] Compile of basicai successful! [in 130 ms]
+[2015.11.02-23.01.13:973][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/basicai" FILE="C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset" SILENT=true
+[2015.11.02-23.01.14:009][998]LogSavePackage: Save=31.950336ms
+[2015.11.02-23.01.14:009][998]LogSavePackage: Moving 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/basicai8C7B67E740A102A45CD1AF8D8A1C244C.tmp' to 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset'
+[2015.11.02-23.01.14:010][998]LogSavePackage: Total save time: 36.114872ms
+[2015.11.02-23.01.14:010][998]LogSavePackage:Warning: Finished SavePackage C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset
+[2015.11.02-23.01.16:966][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.01.16:966][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.02-23.01.16:966][332]PIE: New page: PIE session: FirstPersonExampleMap (Nov 3, 2015, 1:01:16 AM)
+[2015.11.02-23.01.16:966][332]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.02-23.01.16:968][332]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-23.01.17:003][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037152s)
+[2015.11.02-23.01.17:004][332]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.02-23.01.17:004][332]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2015.11.02-23.01.17:004][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037879s)
+[2015.11.02-23.01.17:004][332]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-23.01.17:004][332]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-23.01.17:029][332]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.02-23.01.17:034][332]LogInit: FAudioDevice initialized.
+[2015.11.02-23.01.17:066][332]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2015.11.02-23.01.17:081][332]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.02-23.01.17:081][332]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.03-00.01.17
+[2015.11.02-23.01.17:081][332]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-23.01.17:081][332]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-23.01.17:082][332]LogWorld: Bringing up level for play took: 0.015264
+[2015.11.02-23.01.17:084][332]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.437
+[2015.11.02-23.01.17:084][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.01.28:428][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.01.28:522][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.01.28:542][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002945BDFE20
+[2015.11.02-23.02.01:093][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-23.02.01:093][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-23.02.05:035][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.11.02-23.02.05:035][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_5) Not registered. Aborting.
+[2015.11.02-23.02.08:174][760]BlueprintLog: New page: Compile basicai
+[2015.11.02-23.02.08:396][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.11.02-23.02.08:396][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_6) Not registered. Aborting.
+[2015.11.02-23.02.08:421][760]BlueprintEditorCompileResults: Info [0509.65] Compile of basicai successful! [in 246 ms]
+[2015.11.02-23.02.09:624][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/basicai" FILE="C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset" SILENT=true
+[2015.11.02-23.02.09:661][884]LogSavePackage: Save=30.858120ms
+[2015.11.02-23.02.09:661][884]LogSavePackage: Moving 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/basicai2FD480A24B0E1320B651189960A84E74.tmp' to 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset'
+[2015.11.02-23.02.09:662][884]LogSavePackage: Total save time: 37.826821ms
+[2015.11.02-23.02.09:662][884]LogSavePackage:Warning: Finished SavePackage C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset
+[2015.11.02-23.02.11:407][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.02.11:407][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.02-23.02.11:407][ 77]PIE: New page: PIE session: FirstPersonExampleMap (Nov 3, 2015, 1:02:11 AM)
+[2015.11.02-23.02.11:407][ 77]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.02-23.02.11:409][ 77]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-23.02.11:441][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034061s)
+[2015.11.02-23.02.11:441][ 77]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.02-23.02.11:442][ 77]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2015.11.02-23.02.11:442][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035168s)
+[2015.11.02-23.02.11:442][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-23.02.11:442][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-23.02.11:467][ 77]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.02-23.02.11:472][ 77]LogInit: FAudioDevice initialized.
+[2015.11.02-23.02.11:504][ 77]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2015.11.02-23.02.11:519][ 77]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.02-23.02.11:519][ 77]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.03-00.02.11
+[2015.11.02-23.02.11:519][ 77]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-23.02.11:519][ 77]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-23.02.11:520][ 77]LogWorld: Bringing up level for play took: 0.015393
+[2015.11.02-23.02.11:522][ 77]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.875
+[2015.11.02-23.02.11:522][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.02.41:809][707]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:826][709]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:843][711]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:859][713]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:868][714]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:876][715]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:884][716]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:893][717]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:909][719]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:918][720]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:934][722]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:943][723]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:951][724]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:959][725]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:967][726]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.41:984][728]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:001][730]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:010][731]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:018][732]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:026][733]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:035][734]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:051][736]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:076][739]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:084][740]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:093][741]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:101][742]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:109][743]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:118][744]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:126][745]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:134][746]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:143][747]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:151][748]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:159][749]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:168][750]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:176][751]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:184][752]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:193][753]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:201][754]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:209][755]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:218][756]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:226][757]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:234][758]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:243][759]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:251][760]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:259][761]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:268][762]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:276][763]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:284][764]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:293][765]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:301][766]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:309][767]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:318][768]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:327][769]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:335][770]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:343][771]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:351][772]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:360][773]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:368][774]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:376][775]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:385][776]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:393][777]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:401][778]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:410][779]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:418][780]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:426][781]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:434][782]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:443][783]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:451][784]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:459][785]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:468][786]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:476][787]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:485][788]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:493][789]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:501][790]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:509][791]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:518][792]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:526][793]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:534][794]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:543][795]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:551][796]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:559][797]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:568][798]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:576][799]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:584][800]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:593][801]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:601][802]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:609][803]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:618][804]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:626][805]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:634][806]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:642][807]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:651][808]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:660][809]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:668][810]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:676][811]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:685][812]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:693][813]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:701][814]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:710][815]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:718][816]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:726][817]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:735][818]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:743][819]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:751][820]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:760][821]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:768][822]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:776][823]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:784][824]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:793][825]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:801][826]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:809][827]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:818][828]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:826][829]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:834][830]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:845][831]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:851][832]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:859][833]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:868][834]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:876][835]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:884][836]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:893][837]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:901][838]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:909][839]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:918][840]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:926][841]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:934][842]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:943][843]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:951][844]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:959][845]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:968][846]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:976][847]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:985][848]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.42:993][849]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:001][850]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:010][851]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:018][852]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:026][853]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:035][854]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:043][855]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:051][856]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:060][857]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:068][858]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:076][859]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:085][860]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:093][861]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:101][862]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:109][863]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:118][864]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:126][865]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:134][866]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:143][867]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:151][868]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:159][869]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:168][870]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:176][871]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:184][872]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:193][873]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:201][874]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:209][875]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:218][876]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:226][877]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:234][878]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:243][879]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:251][880]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:259][881]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:268][882]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:276][883]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:284][884]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:293][885]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:301][886]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:310][887]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:318][888]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:326][889]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:335][890]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:343][891]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:351][892]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:360][893]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:368][894]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:376][895]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:387][896]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:393][897]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:401][898]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:410][899]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:418][900]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:426][901]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:434][902]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:443][903]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:451][904]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:459][905]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:468][906]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:476][907]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:484][908]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:493][909]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:501][910]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:509][911]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:518][912]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:526][913]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:534][914]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:543][915]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:551][916]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:559][917]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:568][918]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:576][919]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:584][920]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:593][921]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:601][922]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:609][923]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:618][924]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:626][925]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:635][926]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:643][927]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:651][928]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:660][929]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:668][930]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:676][931]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:685][932]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:693][933]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:701][934]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:710][935]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:718][936]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:726][937]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:735][938]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:743][939]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:751][940]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:759][941]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:768][942]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:776][943]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:784][944]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:793][945]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:801][946]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:809][947]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:818][948]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:826][949]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:834][950]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:843][951]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:851][952]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:859][953]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:868][954]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:876][955]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:884][956]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:893][957]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:901][958]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:909][959]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:918][960]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:926][961]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:934][962]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:943][963]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:951][964]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:960][965]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:968][966]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:976][967]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:985][968]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.43:993][969]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:001][970]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:010][971]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:018][972]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:026][973]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:035][974]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:043][975]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:051][976]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:060][977]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:068][978]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:076][979]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:084][980]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:093][981]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:101][982]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:109][983]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:118][984]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:126][985]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:134][986]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:143][987]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:151][988]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:159][989]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:168][990]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:176][991]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:184][992]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:193][993]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:201][994]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:209][995]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:218][996]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:226][997]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:234][998]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:243][999]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:251][  0]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:259][  1]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:268][  2]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:276][  3]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:285][  4]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:293][  5]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:301][  6]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:310][  7]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:318][  8]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:326][  9]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:335][ 10]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:343][ 11]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:351][ 12]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:360][ 13]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:368][ 14]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:376][ 15]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:385][ 16]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:393][ 17]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:401][ 18]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:411][ 19]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:418][ 20]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:426][ 21]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:434][ 22]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:443][ 23]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:451][ 24]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:459][ 25]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:468][ 26]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:476][ 27]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:484][ 28]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:493][ 29]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:501][ 30]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:509][ 31]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:518][ 32]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:526][ 33]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:534][ 34]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:543][ 35]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:551][ 36]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:559][ 37]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:568][ 38]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:576][ 39]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:584][ 40]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:593][ 41]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:601][ 42]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:610][ 43]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:618][ 44]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:626][ 45]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:635][ 46]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:643][ 47]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:651][ 48]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:660][ 49]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:668][ 50]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:676][ 51]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:685][ 52]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:693][ 53]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:701][ 54]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:710][ 55]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:718][ 56]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:726][ 57]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:734][ 58]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:743][ 59]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:751][ 60]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:759][ 61]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:768][ 62]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:776][ 63]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:784][ 64]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:793][ 65]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:801][ 66]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:809][ 67]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:818][ 68]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:826][ 69]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:834][ 70]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:843][ 71]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:851][ 72]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:859][ 73]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:868][ 74]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:876][ 75]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:884][ 76]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:893][ 77]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:901][ 78]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:909][ 79]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:918][ 80]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:926][ 81]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:935][ 82]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:943][ 83]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:951][ 84]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:960][ 85]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:968][ 86]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:976][ 87]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:985][ 88]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.44:993][ 89]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:001][ 90]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:010][ 91]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:018][ 92]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:026][ 93]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:035][ 94]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:043][ 95]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:051][ 96]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:060][ 97]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:068][ 98]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:076][ 99]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:084][100]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:093][101]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:101][102]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:109][103]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:118][104]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:126][105]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:134][106]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:143][107]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:151][108]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:159][109]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:168][110]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:176][111]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:184][112]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:193][113]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:201][114]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:209][115]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:218][116]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:226][117]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:234][118]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:243][119]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:251][120]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:260][121]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:268][122]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:276][123]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:285][124]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:293][125]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:301][126]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:310][127]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:318][128]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:326][129]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:335][130]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:343][131]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:351][132]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:360][133]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:368][134]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:376][135]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:385][136]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:393][137]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:401][138]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:409][139]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:418][140]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:426][141]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:434][142]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:443][143]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:451][144]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:459][145]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:468][146]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:476][147]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:484][148]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:493][149]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:501][150]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:509][151]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:518][152]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:526][153]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:534][154]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:543][155]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:551][156]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:559][157]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:568][158]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:576][159]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:585][160]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:593][161]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:601][162]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:610][163]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:618][164]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:626][165]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:635][166]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:643][167]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:651][168]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:660][169]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:668][170]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:676][171]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:685][172]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:693][173]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:701][174]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:710][175]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:718][176]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:726][177]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:734][178]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:743][179]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:751][180]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:759][181]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:768][182]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:776][183]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:784][184]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:793][185]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:801][186]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:809][187]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:818][188]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:826][189]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:834][190]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:843][191]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:851][192]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:859][193]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:868][194]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:876][195]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:884][196]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:893][197]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:901][198]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:910][199]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:918][200]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:926][201]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:935][202]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:943][203]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:951][204]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:960][205]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:968][206]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:976][207]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:985][208]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.45:993][209]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:001][210]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:010][211]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:018][212]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:026][213]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:035][214]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:043][215]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:051][216]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:059][217]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:068][218]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:076][219]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:084][220]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:093][221]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:101][222]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:109][223]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:118][224]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:126][225]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:134][226]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:143][227]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:151][228]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:159][229]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:168][230]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:176][231]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:184][232]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:193][233]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:201][234]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:209][235]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:218][236]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:226][237]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:235][238]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:243][239]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:251][240]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:260][241]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:268][242]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:276][243]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:285][244]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:293][245]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:301][246]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:310][247]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:318][248]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:326][249]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:335][250]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:343][251]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:351][252]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:360][253]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:368][254]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:376][255]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:384][256]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:393][257]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:401][258]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:409][259]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:418][260]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:426][261]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:434][262]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:443][263]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:451][264]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:459][265]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:468][266]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:476][267]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:484][268]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:493][269]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:501][270]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:509][271]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:518][272]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:526][273]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:534][274]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:543][275]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:551][276]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:560][277]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:568][278]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:576][279]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:585][280]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:593][281]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:601][282]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:610][283]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:618][284]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:626][285]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:635][286]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:643][287]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:651][288]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:660][289]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:668][290]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:676][291]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:685][292]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:693][293]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:701][294]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:710][295]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:718][296]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:726][297]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:734][298]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:743][299]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:751][300]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:759][301]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:768][302]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:776][303]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:784][304]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:793][305]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:801][306]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:809][307]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:818][308]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:826][309]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:834][310]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:843][311]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:851][312]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:859][313]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:868][314]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:876][315]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:885][316]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:893][317]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:901][318]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:910][319]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:918][320]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:926][321]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:935][322]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:943][323]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:951][324]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:960][325]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:968][326]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:976][327]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:985][328]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.46:993][329]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:001][330]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:010][331]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:018][332]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:026][333]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:034][334]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:043][335]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:051][336]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:059][337]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:068][338]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:076][339]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:084][340]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:093][341]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:101][342]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:109][343]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:118][344]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:126][345]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:134][346]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:143][347]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:151][348]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:159][349]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:168][350]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:176][351]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:184][352]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:193][353]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:201][354]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:210][355]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:218][356]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:226][357]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:235][358]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:243][359]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:251][360]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:260][361]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:268][362]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:276][363]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:285][364]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:293][365]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:301][366]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:310][367]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:318][368]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:326][369]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:335][370]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:343][371]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:351][372]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:360][373]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:368][374]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:376][375]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:384][376]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:393][377]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:401][378]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:409][379]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:418][380]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:426][381]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:434][382]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:443][383]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:451][384]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:459][385]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:468][386]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:476][387]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:484][388]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:493][389]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:501][390]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:509][391]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:518][392]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:526][393]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:535][394]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:543][395]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:551][396]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:560][397]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:568][398]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:576][399]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:585][400]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:593][401]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:601][402]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:610][403]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:618][404]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:626][405]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:635][406]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:643][407]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:651][408]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:660][409]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:668][410]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:676][411]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:685][412]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:693][413]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:701][414]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:710][415]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:718][416]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:726][417]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:734][418]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:743][419]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:751][420]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:759][421]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:768][422]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:776][423]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:784][424]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:793][425]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:801][426]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:809][427]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:818][428]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:826][429]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:834][430]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:843][431]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:851][432]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:860][433]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:868][434]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:876][435]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:885][436]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:893][437]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:901][438]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:910][439]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:918][440]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:926][441]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:935][442]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:943][443]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:951][444]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:960][445]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:968][446]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:976][447]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:985][448]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.47:993][449]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:001][450]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:010][451]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:018][452]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:026][453]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:035][454]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:043][455]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:051][456]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:059][457]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:068][458]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:076][459]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:085][460]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:093][461]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:101][462]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:110][463]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:118][464]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:126][465]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:134][466]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:143][467]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:151][468]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:159][469]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:168][470]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:177][471]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:185][472]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:193][473]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:201][474]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:210][475]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:218][476]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:226][477]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:235][478]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:243][479]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:251][480]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:260][481]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:268][482]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:276][483]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:285][484]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:293][485]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:301][486]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:310][487]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:318][488]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:326][489]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:335][490]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:343][491]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:351][492]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:360][493]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:368][494]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:376][495]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:393][497]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:401][498]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:409][499]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:418][500]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:426][501]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:434][502]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:451][504]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:460][505]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:476][507]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:484][508]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:501][510]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:518][512]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:527][513]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:543][515]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:560][517]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:585][520]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:593][521]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:601][522]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:610][523]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:618][524]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:635][526]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:643][527]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:651][528]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:660][529]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:668][530]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:676][531]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:685][532]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:693][533]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:701][534]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:718][536]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:726][537]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:735][538]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:743][539]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:759][541]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:776][543]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:784][544]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:793][545]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:810][547]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:818][548]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:826][549]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:835][550]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:843][551]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:851][552]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:860][553]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:868][554]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:877][555]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:885][556]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:893][557]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:902][558]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:910][559]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:918][560]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:927][561]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:943][563]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:951][564]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:960][565]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:968][566]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:976][567]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:985][568]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.48:993][569]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:010][571]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:018][572]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:026][573]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:043][575]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:051][576]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:060][577]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:068][578]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:076][579]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:093][581]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:101][582]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:110][583]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:126][585]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:134][586]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:151][588]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:168][590]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:177][591]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:193][593]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:210][595]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:218][596]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:227][597]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:235][598]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:243][599]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:252][600]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:260][601]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:268][602]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:277][603]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:285][604]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:293][605]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:301][606]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:310][607]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:318][608]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:327][609]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:335][610]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:343][611]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:351][612]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:360][613]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:393][617]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:401][618]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:409][619]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:418][620]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:426][621]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:435][622]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:443][623]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:451][624]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:460][625]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:468][626]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:485][628]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:493][629]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:502][630]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:510][631]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:518][632]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:535][634]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:551][636]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:560][637]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:577][639]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:585][640]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:593][641]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:601][642]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:610][643]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:618][644]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:626][645]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:643][647]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:651][648]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:676][651]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:685][652]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:693][653]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:701][654]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:710][655]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:718][656]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:734][658]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:743][659]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:751][660]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:759][661]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:768][662]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:784][664]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:801][666]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:818][668]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:835][670]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:843][671]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:852][672]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:877][675]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:893][677]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:910][679]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:918][680]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:935][682]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:943][683]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:968][686]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:985][688]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.49:993][689]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.50:001][690]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.50:010][691]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.50:018][692]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.50:026][693]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.50:035][694]LogCharacterMovement: basicai_C_2 is stuck and failed to move!
+[2015.11.02-23.02.52:902][ 38]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.02.52:995][ 38]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.02.53:016][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000294716DBC0
+[2015.11.02-23.04.56:002][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-23.04.56:002][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-23.04.57:014][586]BlueprintLog: New page: Compile basicai
+[2015.11.02-23.04.57:240][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.11.02-23.04.57:240][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_7) Not registered. Aborting.
+[2015.11.02-23.04.57:265][586]BlueprintEditorCompileResults: Info [0678.49] Compile of basicai successful! [in 250 ms]
+[2015.11.02-23.04.57:638][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/basicai" FILE="C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset" SILENT=true
+[2015.11.02-23.04.57:673][621]LogSavePackage: Save=31.141493ms
+[2015.11.02-23.04.57:673][621]LogSavePackage: Moving 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/basicai8D52F9834B40AD098354D49FB24D3CCC.tmp' to 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset'
+[2015.11.02-23.04.57:674][621]LogSavePackage: Total save time: 35.401460ms
+[2015.11.02-23.04.57:674][621]LogSavePackage:Warning: Finished SavePackage C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/ThirdPersonBP/Blueprints/basicai.uasset
+[2015.11.02-23.04.58:997][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.04.58:997][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.02-23.04.58:997][768]PIE: New page: PIE session: FirstPersonExampleMap (Nov 3, 2015, 1:04:58 AM)
+[2015.11.02-23.04.58:997][768]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.02-23.04.58:999][768]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.02-23.04.59:034][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036518s)
+[2015.11.02-23.04.59:034][768]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.02-23.04.59:034][768]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2015.11.02-23.04.59:034][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037294s)
+[2015.11.02-23.04.59:034][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-23.04.59:034][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-23.04.59:059][768]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.02-23.04.59:064][768]LogInit: FAudioDevice initialized.
+[2015.11.02-23.04.59:094][768]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2015.11.02-23.04.59:109][768]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.02-23.04.59:109][768]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.03-00.04.59
+[2015.11.02-23.04.59:109][768]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-23.04.59:109][768]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.02-23.04.59:111][768]LogWorld: Bringing up level for play took: 0.015327
+[2015.11.02-23.04.59:112][768]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.465
+[2015.11.02-23.04.59:113][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.05.06:440][644]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.05.06:531][644]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.02-23.05.06:551][644]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000292A7BD9E0
+[2015.11.02-23.06.10:103][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.02-23.06.10:103][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.02-23.06.11:113][233]LogSavePackage: Save=970.098267ms
+[2015.11.02-23.06.11:113][233]LogSavePackage: Moving 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/FirstPersonExampleMap_Auto15EAB764849117942E4031CAEBDB25EAF.tmp' to 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.11.02-23.06.11:117][233]LogSavePackage: Total save time: 988.347154ms
+[2015.11.02-23.06.11:117][233]LogSavePackage:Warning: Finished SavePackage C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap
+[2015.11.02-23.06.11:120][233]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 1.016
+[2015.11.02-23.06.11:120][233]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.016
+[2015.11.03-11.20.42:151][413]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.11.04-00.05.10:172][896]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.11.04-00.06.22:129][ 35]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.11.04-00.06.56:675][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.04-00.06.56:691][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.04-00.07.00:217][222]LogSavePackage: Save=3061.967529ms
+[2015.11.04-00.07.00:217][222]LogSavePackage: Moving 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/FirstPersonExampleMapF66ADD944D19DD20C48BFDA51B9EEA0E.tmp' to 'C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2015.11.04-00.07.00:248][222]LogSavePackage: Total save time: 3210.493360ms
+[2015.11.04-00.07.00:248][222]LogSavePackage:Warning: Finished SavePackage C:/Users/snabel/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2015.11.04-00.07.02:711][292]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.04-00.07.03:400][293]Cmd: QUIT_EDITOR
+[2015.11.04-00.07.04:929][293]LogExit: Preparing to exit.
+[2015.11.04-00.07.06:590][293]LogExit: Editor shut down
+[2015.11.04-00.07.06:591][293]LogExit: Transaction tracking system shut down
+[2015.11.04-00.07.06:772][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002976CA0860
+[2015.11.04-00.07.06:790][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002977EDAE80
+[2015.11.04-00.07.06:790][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002918AEF880
+[2015.11.04-00.07.06:790][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002978140720
+[2015.11.04-00.07.06:790][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000291EC7DD00
+[2015.11.04-00.07.06:790][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002918C63740
+[2015.11.04-00.07.06:790][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000294AFAAFC0
+[2015.11.04-00.07.06:790][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002958CFCC20
+[2015.11.04-00.07.08:802][293]LogExit: Object subsystem successfully closed.
+[2015.11.04-00.07.09:926][293]LogD3D11RHI: Shutdown
+[2015.11.04-00.07.09:942][293]LogD3D11RHI: CleanupD3DDevice
+[2015.11.04-00.07.10:181][293]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.04-00.07.15:547][293]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.11.04-00.07.15:568][293]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.11.04-00.07.15:619][293]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.11.04-00.07.15:632][293]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.11.04-00.07.15:647][293]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.11.04-00.07.15:677][293]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.11.04-00.07.15:737][293]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.11.04-00.07.15:737][293]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.11.04-00.07.15:798][293]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.11.04-00.07.15:878][293]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.11.04-00.07.15:896][293]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.11.04-00.07.16:071][293]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.11.04-00.07.16:071][293]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.11.04-00.07.16:071][293]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.11.04-00.07.16:071][293]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.11.04-00.07.16:091][293]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.11.04-00.07.16:091][293]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.11.04-00.07.16:138][293]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.11.04-00.07.16:138][293]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.11.04-00.07.16:156][293]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.11.04-00.07.16:169][293]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.11.04-00.07.16:311][293]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.11.04-00.07.16:337][293]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.11.04-00.07.16:427][293]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.11.04-00.07.16:444][293]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.11.04-00.07.16:452][293]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.11.04-00.07.16:452][293]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.11.04-00.07.17:230][293]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.11.04-00.07.17:230][293]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.11.04-00.07.17:230][293]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.11.04-00.07.17:230][293]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.11.04-00.07.17:254][293]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.11.04-00.07.17:258][293]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.11.04-00.07.17:269][293]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.11.04-00.07.17:269][293]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.11.04-00.07.17:290][293]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.11.04-00.07.17:331][293]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.11.04-00.07.17:331][293]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.11.04-00.07.17:351][293]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.11.04-00.07.17:365][293]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.11.04-00.07.17:371][293]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.11.04-00.07.17:371][293]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.11.04-00.07.17:377][293]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.11.04-00.07.17:377][293]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.11.04-00.07.17:391][293]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.11.04-00.07.17:391][293]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.11.04-00.07.17:404][293]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.11.04-00.07.17:404][293]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.11.04-00.07.17:459][293]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.11.04-00.07.17:485][293]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.11.04-00.07.17:508][293]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.11.04-00.07.17:512][293]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.11.04-00.07.17:512][293]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.11.04-00.07.17:540][293]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.11.04-00.07.17:557][293]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.11.04-00.07.17:565][293]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.11.04-00.07.17:579][293]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.11.04-00.07.17:579][293]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.11.04-00.07.17:603][293]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.11.04-00.07.17:603][293]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.11.04-00.07.17:625][293]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.11.04-00.07.17:666][293]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.11.04-00.07.17:666][293]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.11.04-00.07.17:687][293]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.11.04-00.07.17:687][293]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.11.04-00.07.17:698][293]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.11.04-00.07.17:740][293]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.11.04-00.07.17:746][293]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.11.04-00.07.17:755][293]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.11.04-00.07.17:767][293]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.11.04-00.07.17:780][293]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.11.04-00.07.17:788][293]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.11.04-00.07.17:788][293]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.11.04-00.07.17:788][293]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.11.04-00.07.17:795][293]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.11.04-00.07.17:822][293]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.11.04-00.07.17:822][293]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.11.04-00.07.17:933][293]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.11.04-00.07.17:952][293]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.04-00.07.17:964][293]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.04-00.07.17:964][293]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.04-00.07.17:964][293]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.04-00.07.17:964][293]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.04-00.07.17:975][293]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.04-00.07.17:975][293]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.04-00.07.18:064][293]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.04-00.07.18:064][293]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.04-00.07.18:064][293]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.04-00.07.18:064][293]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.04-00.07.18:093][293]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.04-00.07.18:100][293]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.04-00.07.18:100][293]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.04-00.07.18:100][293]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.04-00.07.18:127][293]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.04-00.07.18:138][293]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2015.11.04-00.07.18:143][293]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2015.11.04-00.07.18:143][293]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2015.11.04-00.07.18:163][293]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2015.11.04-00.07.18:184][293]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2015.11.04-00.07.18:206][293]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2015.11.04-00.07.18:230][293]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2015.11.04-00.07.18:230][293]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2015.11.04-00.07.18:236][293]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2015.11.04-00.07.18:241][293]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2015.11.04-00.07.18:253][293]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2015.11.04-00.07.18:264][293]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2015.11.04-00.07.18:303][293]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2015.11.04-00.07.18:310][293]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2015.11.04-00.07.18:346][293]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2015.11.04-00.07.18:367][293]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2015.11.04-00.07.18:503][293]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2015.11.04-00.07.18:509][293]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2015.11.04-00.07.18:534][293]LogModuleManager: Shutting down and abandoning module AutomaticDoor (87)
+[2015.11.04-00.07.18:534][293]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.11.04-00.07.18:634][293]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.11.04-00.07.18:634][293]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.11.04-00.07.18:647][293]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.11.04-00.07.18:679][293]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.11.04-00.07.18:684][293]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.11.04-00.07.18:697][293]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.11.04-00.07.18:697][293]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.11.04-00.07.18:697][293]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.11.04-00.07.18:741][293]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.11.04-00.07.18:756][293]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.11.04-00.07.18:763][293]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.11.04-00.07.18:788][293]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.11.04-00.07.18:810][293]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.11.04-00.07.18:810][293]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.11.04-00.07.18:828][293]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.11.04-00.07.18:860][293]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.11.04-00.07.18:887][293]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.11.04-00.07.18:889][293]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.11.04-00.07.18:889][293]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.11.04-00.07.18:946][293]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.11.04-00.07.18:946][293]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.11.04-00.07.18:952][293]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.11.04-00.07.18:952][293]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.11.04-00.07.18:952][293]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.11.04-00.07.18:952][293]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.11.04-00.07.18:953][293]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.11.04-00.07.18:953][293]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.11.04-00.07.18:960][293]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.11.04-00.07.18:967][293]LogModuleManager: Shutting down and abandoning module CookingStats (56)
+[2015.11.04-00.07.18:974][293]LogModuleManager: Shutting down and abandoning module DerivedDataCache (55)
+[2015.11.04-00.07.19:071][293]LogDerivedDataCache: Shutdown
+[2015.11.04-00.07.19:071][293]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (54)
+[2015.11.04-00.07.19:079][293]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (53)
+[2015.11.04-00.07.19:090][293]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (52)
+[2015.11.04-00.07.19:096][293]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (51)
+[2015.11.04-00.07.19:096][293]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (50)
+[2015.11.04-00.07.19:107][293]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (49)
+[2015.11.04-00.07.19:113][293]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (48)
+[2015.11.04-00.07.19:113][293]LogModuleManager: Shutting down and abandoning module ImageWrapper (47)
+[2015.11.04-00.07.19:113][293]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (46)
+[2015.11.04-00.07.19:122][293]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (45)
+[2015.11.04-00.07.19:141][293]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (44)
+[2015.11.04-00.07.19:141][293]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (43)
+[2015.11.04-00.07.19:141][293]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (42)
+[2015.11.04-00.07.19:141][293]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (41)
+[2015.11.04-00.07.19:154][293]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (40)
+[2015.11.04-00.07.19:154][293]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (39)
+[2015.11.04-00.07.19:154][293]LogModuleManager: Shutting down and abandoning module Messaging (38)
+[2015.11.04-00.07.19:154][293]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (37)
+[2015.11.04-00.07.19:175][293]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (36)
+[2015.11.04-00.07.19:182][293]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (35)
+[2015.11.04-00.07.19:189][293]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.11.04-00.07.19:196][293]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.11.04-00.07.19:203][293]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.11.04-00.07.19:206][293]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.11.04-00.07.19:212][293]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.11.04-00.07.19:215][293]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.11.04-00.07.19:218][293]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.11.04-00.07.19:218][293]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.11.04-00.07.19:224][293]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.11.04-00.07.19:248][293]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.11.04-00.07.19:251][293]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.11.04-00.07.19:251][293]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.11.04-00.07.19:263][293]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.11.04-00.07.19:263][293]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.11.04-00.07.19:263][293]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.11.04-00.07.19:263][293]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.11.04-00.07.21:276][293]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.11.04-00.07.21:299][293]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (16)
+[2015.11.04-00.07.21:300][293]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2015.11.04-00.07.21:310][293]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.04-00.07.21:322][293]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.04-00.07.21:322][293]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.04-00.07.21:326][293]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.04-00.07.21:372][293]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.04-00.07.21:383][293]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.04-00.07.21:383][293]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.04-00.07.21:383][293]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.04-00.07.21:383][293]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.04-00.07.21:383][293]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.04-00.07.21:383][293]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.04-00.07.21:390][293]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.04-00.07.21:400][293]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.04-00.07.21:410][293]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.04-00.07.21:429][293]LogExit: Exiting.
+[2015.11.04-00.07.21:472][293]Log file closed, 11/04/15 01:07:21

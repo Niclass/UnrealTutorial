@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TheGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B269C4BB-869C-4718-8A8D-ED59DFDBBA77}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FBC14A93-2B9D-402D-AB62-2423A4B4B4C0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TheGame">
+      <UniqueIdentifier>{4DA98559-292D-445E-BB62-4AA20726C42D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheGame\TheGame.Build.cs">
+      <Filter>Source\TheGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheGame\TheGame.cpp">
+      <Filter>Source\TheGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheGame\TheGame.h">
+      <Filter>Source\TheGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheGame\TheGameCharacter.cpp">
+      <Filter>Source\TheGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheGame\TheGameCharacter.h">
+      <Filter>Source\TheGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheGame\TheGameGameMode.cpp">
+      <Filter>Source\TheGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheGame\TheGameGameMode.h">
+      <Filter>Source\TheGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheGame\TheGameHUD.cpp">
+      <Filter>Source\TheGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheGame\TheGameHUD.h">
+      <Filter>Source\TheGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheGame\TheGameProjectile.cpp">
+      <Filter>Source\TheGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheGame\TheGameProjectile.h">
+      <Filter>Source\TheGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TheGame\Door.h">
+      <Filter>Source\TheGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TheGame\DoorOpener.h">
+      <Filter>Source\TheGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TheGame\Enemy.h">
+      <Filter>Source\TheGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TheGame\Door.cpp">
+      <Filter>Source\TheGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGame\DoorOpener.cpp">
+      <Filter>Source\TheGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheGame\Enemy.cpp">
+      <Filter>Source\TheGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

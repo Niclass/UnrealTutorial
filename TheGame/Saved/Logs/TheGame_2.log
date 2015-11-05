@@ -1,0 +1,1030 @@
+﻿[2015.11.05-15.46.16:737][  0]Log file open, 11/05/15 16:46:16
+[2015.11.05-15.46.16:737][  0]LogInit:Display: Running engine for game: TheGame
+[2015.11.05-15.46.16:737][  0]LogInit:Display: RandInit(641559263) SRandInit(641559263).
+[2015.11.05-15.46.16:737][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.05-15.46.16:737][  0]LogStats: Stats thread started at 0.064675
+[2015.11.05-15.46.16:737][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.11.05-15.46.16:737][  0]LogInit: API Version: 2672455
+[2015.11.05-15.46.16:737][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.11.05-15.46.16:737][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.05-15.46.16:737][  0]LogInit: Build Configuration: Development
+[2015.11.05-15.46.16:737][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.05-15.46.16:737][  0]LogInit: Command line:  
+[2015.11.05-15.46.16:737][  0]LogInit: Base directory: D:/Programs/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.05-15.46.16:737][  0]LogInit: Rocket: 1
+[2015.11.05-15.46.16:742][  0]LogInit: Using libcurl 7.41.0
+[2015.11.05-15.46.16:742][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.05-15.46.16:742][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.05-15.46.16:742][  0]LogInit:  - other features:
+[2015.11.05-15.46.16:742][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.05-15.46.16:742][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.05-15.46.16:742][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.05-15.46.16:742][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.05-15.46.16:742][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.05-15.46.16:742][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.05-15.46.16:742][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.05-15.46.16:742][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.05-15.46.16:742][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.05-15.46.16:742][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.05-15.46.16:746][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.05-15.46.16:751][  0]LogInit: Object subsystem initialized
+[2015.11.05-15.46.16:753][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.05-15.46.16:753][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.05-15.46.16:759][  0]LogInit: Computer: SNABELSLYNA
+[2015.11.05-15.46.16:759][  0]LogInit: User: snabel
+[2015.11.05-15.46.16:759][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.05-15.46.16:759][  0]LogInit: High frequency timer resolution =3.415989 MHz
+[2015.11.05-15.46.16:759][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.11.05-15.46.16:759][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-15.46.16:759][  0]LogMemory: Process Physical Memory: 54.56 MB used, 54.56 MB peak
+[2015.11.05-15.46.16:759][  0]LogMemory: Process Virtual Memory: 55.41 MB used, 55.41 MB peak
+[2015.11.05-15.46.16:759][  0]LogMemory: Physical Memory: 4005.40 MB used, 8134.06 MB total
+[2015.11.05-15.46.16:759][  0]LogMemory: Virtual Memory: 364.29 MB used, 134217728.00 MB total
+[2015.11.05-15.46.16:785][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.11.05-15.46.17:403][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.11.05-15.46.17:403][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 1 output[s]
+[2015.11.05-15.46.17:405][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.05-15.46.17:405][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4067MB of shared system memory, 0 output[s]
+[2015.11.05-15.46.17:405][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.05-15.46.17:407][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.05-15.46.17:407][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.05-15.46.17:416][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.05-15.46.17:430][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (C:/Users/snabel/Documents/Unreal Projects/TheGame/Intermediate/Shaders/WorkingDirectory/7408/).
+[2015.11.05-15.46.17:431][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Intermediate/Shaders/tmp/5FCE9D3B44191C720DC169B20E2AA734/'.
+[2015.11.05-15.46.17:431][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.05-15.46.18:283][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.05-15.46.18:286][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.05-15.46.18:290][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.05-15.46.18:293][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.05-15.46.18:297][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.05-15.46.18:299][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.05-15.46.18:302][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.05-15.46.18:304][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.05-15.46.18:306][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.05-15.46.18:309][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.05-15.46.18:312][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.05-15.46.18:314][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.05-15.46.18:315][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.05-15.46.18:330][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.05-15.46.18:332][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.05-15.46.18:335][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.05-15.46.18:338][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.05-15.46.18:338][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.05-15.46.18:393][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.05-15.46.18:432][  0]LogDerivedDataCache: Loaded boot cache 0.04s 44MB C:/Users/snabel/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.05-15.46.18:432][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/snabel/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.05-15.46.18:432][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/snabel/Documents/Unreal Projects/TheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.05-15.46.18:432][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.05-15.46.18:432][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/snabel/Documents/Unreal Projects/TheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.05-15.46.18:432][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.05-15.46.18:544][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.05-15.46.18:556][  0]LogDerivedDataCache: Using Local data cache path C:/Users/snabel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.05-15.46.18:669][  0]LogCollisionProfile:Warning: Profile (Trigger) - Custom Channel Name = 'Projectile' hasn't been found
+[2015.11.05-15.46.18:687][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.05-15.46.18:689][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.05-15.46.18:786][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.05-15.46.18:786][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.05-15.46.18:971][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.05-15.46.19:490][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.05-15.46.19:576][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.19:685][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.19:775][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.19:777][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.19:783][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.19:803][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.19:808][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.19:884][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.11.05-15.46.19:997][  0]SourceControl: Info Source control is disabled
+[2015.11.05-15.46.20:003][  0]SourceControl: Info Source control is disabled
+[2015.11.05-15.46.20:011][  0]SourceControl: Info Source control is disabled
+[2015.11.05-15.46.20:018][  0]SourceControl: Info Source control is disabled
+[2015.11.05-15.46.20:114][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-15.46.20:166][  0]LogObj: 38027 objects as part of root set at end of initial load.
+[2015.11.05-15.46.20:166][  0]LogUObjectAllocator: 9464472 out of 0 bytes used by permanent object pool.
+[2015.11.05-15.46.20:210][  0]LogEngine: Initializing Engine...
+[2015.11.05-15.46.20:212][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.05-15.46.20:212][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.05-15.46.20:306][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.05-15.46.20:311][  0]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.46.20:317][  0]LogInit: FAudioDevice initialized.
+[2015.11.05-15.46.20:335][  0]LogDerivedDataCache: Saved boot cache 0.02s 44MB C:/Users/snabel/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.05-15.46.20:339][  0]LogInit: Texture streaming: Enabled
+[2015.11.05-15.46.20:342][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.05-15.46.20:342][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.11.05-15.46.20:342][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fcf2056d41add8e83a7ca0a198c79fb6|02468cb7164248659234c918f7d8f06b|43049118-77b7-47eb-aed6-017bd9278743
+[2015.11.05-15.46.20:342][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.05-15.46.20:348][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.05-15.46.20:363][  0]LogInit: Transaction tracking system initialized
+[2015.11.05-15.46.20:379][  0]BlueprintLog: New page: Editor Load
+[2015.11.05-15.46.20:470][  0]LocalizationService: Info Localization service is disabled
+[2015.11.05-15.46.20:526][  0]LogConsoleResponse:Display: 
+[2015.11.05-15.46.20:610][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.05-15.46.20:644][  0]LogFileCache: Scanning file cache for directory 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/' took 0.01s
+[2015.11.05-15.46.20:644][  0]SourceControl: Info Source control is disabled
+[2015.11.05-15.46.20:644][  0]Cmd: MAP LOAD FILE="C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.05-15.46.20:644][  0]LightingResults: New page: Lighting Build
+[2015.11.05-15.46.20:646][  0]MapCheck: New page: Map Check
+[2015.11.05-15.46.20:646][  0]LightingResults: New page: Lighting Build
+[2015.11.05-15.46.20:657][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028D6638900
+[2015.11.05-15.46.20:840][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.20:945][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.46.20:954][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.05-15.46.20:955][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.05-15.46.20:993][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.658ms to complete.
+[2015.11.05-15.46.20:993][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.350
+[2015.11.05-15.46.21:060][  0]LogCollectionManager: Loaded 0 collections in 0.001074 seconds
+[2015.11.05-15.46.21:099][  0]LogFileCache: Scanning file cache for directory 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Saved/Collections/' took 0.01s
+[2015.11.05-15.46.21:099][  0]LogFileCache: Scanning file cache for directory 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/Developers/snabel/Collections/' took 0.01s
+[2015.11.05-15.46.21:099][  0]LogFileCache: Scanning file cache for directory 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/Collections/' took 0.01s
+[2015.11.05-15.46.21:100][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 1874 classes and 335 folders.
+[2015.11.05-15.46.21:103][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.05-15.46.21:107][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.11.05-15.46.21:136][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.11.05-15.46.21:164][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2015.11.05-15.46.21:182][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.05-15.46.21:186][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.05-15.46.21:208][  0]LogLoad: Full Startup: 5.12 seconds (BP compile: 0.14 seconds)
+[2015.11.05-15.46.21:258][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.05-15.46.21:372][  0]LogRenderer: Reallocating scene render targets to support 980x904 (Frame:2).
+[2015.11.05-15.46.21:533][  5]LogAssetRegistry: Asset discovery search completed in 1.6606 seconds
+[2015.11.05-15.46.21:533][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.05-15.46.21:533][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2015.11.05-15.46.24:453][325]LogAIModule: Creating AISystem for world MainMenu
+[2015.11.05-15.46.24:456][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-15.46.24:457][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.05-15.46.24:457][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.05-15.46.24:457][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-15.46.24:476][325]Cmd: MAP LOAD FILE="C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/FirstPersonCPP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.05-15.46.24:476][325]LightingResults: New page: Lighting Build
+[2015.11.05-15.46.24:491][325]LoadErrors: New page: Loading map: MainMenu.umap
+[2015.11.05-15.46.24:492][325]MapCheck: New page: Map Check
+[2015.11.05-15.46.24:492][325]LightingResults: New page: Lighting Build
+[2015.11.05-15.46.24:503][325]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028C50CE840
+[2015.11.05-15.46.24:505][325]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.05-15.46.24:543][325]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.05-15.46.24:582][325]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.145ms to complete.
+[2015.11.05-15.46.24:582][325]LogFileHelpers: Loading map 'MainMenu' took 0.107
+[2015.11.05-15.46.25:586][441]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.46.25:586][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.46.25:586][441]PIE: New page: PIE session: MainMenu (Nov 5, 2015, 5:46:25 PM)
+[2015.11.05-15.46.25:586][441]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2015.11.05-15.46.25:588][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001661s)
+[2015.11.05-15.46.25:588][441]LogAIModule: Creating AISystem for world MainMenu
+[2015.11.05-15.46.25:588][441]LogPlayLevel: PIE: World Init took: (0.000393s)
+[2015.11.05-15.46.25:588][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002197s)
+[2015.11.05-15.46.25:588][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-15.46.25:589][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.05-15.46.25:589][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.05-15.46.25:589][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-15.46.25:603][441]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.46.25:608][441]LogInit: FAudioDevice initialized.
+[2015.11.05-15.46.25:652][441]LogWorld: Game class is 'GameMode'
+[2015.11.05-15.46.25:654][441]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.11.05-16.46.25
+[2015.11.05-15.46.25:654][441]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.25:654][441]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.25:654][441]LogWorld: Bringing up level for play took: 0.000618
+[2015.11.05-15.46.25:656][441]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu -0.248
+[2015.11.05-15.46.25:656][441]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.46.26:816][575]LogPackageName: SearchForPackageOnDisk took   0.037s to resolve FirstPersonExampleMap.umap.
+[2015.11.05-15.46.26:850][575]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve FirstPersonExampleMap.umap.
+[2015.11.05-15.46.26:850][575]LogNet: Browse: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2015.11.05-15.46.26:850][575]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2015.11.05-15.46.26:862][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028E2D3D260
+[2015.11.05-15.46.26:863][575]Cmd: MEM
+[2015.11.05-15.46.26:875][575]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-15.46.26:875][575]LogMemory: Process Physical Memory: 699.32 MB used, 721.71 MB peak
+[2015.11.05-15.46.26:875][575]LogMemory: Process Virtual Memory: 1452.64 MB used, 1458.22 MB peak
+[2015.11.05-15.46.26:875][575]LogMemory: Physical Memory: 3637.52 MB used, 8134.06 MB total
+[2015.11.05-15.46.26:875][575]LogMemory: Virtual Memory: 2110.92 MB used, 134217728.00 MB total
+[2015.11.05-15.46.26:875][575]LogMemory: 
+[2015.11.05-15.46.26:875][575]Allocator Stats for TBB: (not implemented)
+[2015.11.05-15.46.26:883][575]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.27:112][575]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.46.27:112][575]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.46.27:121][575]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.46.27:121][575]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.46.27
+[2015.11.05-15.46.27:121][575]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.27:122][575]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.27:123][575]LogWorld: Bringing up level for play took: 0.009973
+[2015.11.05-15.46.27:124][575]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.30:966][ 27]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve GameOver.umap.
+[2015.11.05-15.46.31:006][ 28]LogPackageName: SearchForPackageOnDisk took   0.035s to resolve GameOver.umap.
+[2015.11.05-15.46.31:006][ 28]LogNet: Browse: /Game/FirstPersonCPP/Maps/GameOver
+[2015.11.05-15.46.31:006][ 28]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/GameOver
+[2015.11.05-15.46.31:019][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028E2D3EAC0
+[2015.11.05-15.46.31:022][ 28]Cmd: MEM
+[2015.11.05-15.46.31:032][ 28]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-15.46.31:032][ 28]LogMemory: Process Physical Memory: 838.50 MB used, 875.72 MB peak
+[2015.11.05-15.46.31:032][ 28]LogMemory: Process Virtual Memory: 1479.06 MB used, 1651.69 MB peak
+[2015.11.05-15.46.31:032][ 28]LogMemory: Physical Memory: 3740.48 MB used, 8134.06 MB total
+[2015.11.05-15.46.31:032][ 28]LogMemory: Virtual Memory: 2275.44 MB used, 134217728.00 MB total
+[2015.11.05-15.46.31:032][ 28]LogMemory: 
+[2015.11.05-15.46.31:032][ 28]Allocator Stats for TBB: (not implemented)
+[2015.11.05-15.46.31:048][ 28]LogAIModule: Creating AISystem for world GameOver
+[2015.11.05-15.46.31:048][ 28]LogWorld: Game class is 'GameMode'
+[2015.11.05-15.46.31:050][ 28]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2015.11.05-16.46.31
+[2015.11.05-15.46.31:050][ 28]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.31:050][ 28]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.31:050][ 28]LogWorld: Bringing up level for play took: 0.000566
+[2015.11.05-15.46.31:050][ 28]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.05-15.46.32:168][162]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.46.32:197][162]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.46.32:221][163]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028C52FA200
+[2015.11.05-15.46.33:272][287]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.46.33:272][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.46.33:272][287]PIE: New page: PIE session: MainMenu (Nov 5, 2015, 5:46:33 PM)
+[2015.11.05-15.46.33:272][287]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2015.11.05-15.46.33:274][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002097s)
+[2015.11.05-15.46.33:275][287]LogAIModule: Creating AISystem for world MainMenu
+[2015.11.05-15.46.33:275][287]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2015.11.05-15.46.33:275][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002946s)
+[2015.11.05-15.46.33:290][287]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.46.33:294][287]LogInit: FAudioDevice initialized.
+[2015.11.05-15.46.33:328][287]LogWorld: Game class is 'GameMode'
+[2015.11.05-15.46.33:329][287]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.11.05-16.46.33
+[2015.11.05-15.46.33:329][287]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.33:329][287]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.33:330][287]LogWorld: Bringing up level for play took: 0.000579
+[2015.11.05-15.46.33:331][287]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu -0.574
+[2015.11.05-15.46.33:331][287]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.46.34:471][420]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve FirstPersonExampleMap.umap.
+[2015.11.05-15.46.34:506][420]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve FirstPersonExampleMap.umap.
+[2015.11.05-15.46.34:506][420]LogNet: Browse: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2015.11.05-15.46.34:506][420]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2015.11.05-15.46.34:519][420]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028C53242C0
+[2015.11.05-15.46.34:519][420]Cmd: MEM
+[2015.11.05-15.46.34:530][420]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-15.46.34:530][420]LogMemory: Process Physical Memory: 831.80 MB used, 875.72 MB peak
+[2015.11.05-15.46.34:530][420]LogMemory: Process Virtual Memory: 1479.02 MB used, 1651.69 MB peak
+[2015.11.05-15.46.34:530][420]LogMemory: Physical Memory: 3729.52 MB used, 8134.06 MB total
+[2015.11.05-15.46.34:530][420]LogMemory: Virtual Memory: 2243.44 MB used, 134217728.00 MB total
+[2015.11.05-15.46.34:530][420]LogMemory: 
+[2015.11.05-15.46.34:530][420]Allocator Stats for TBB: (not implemented)
+[2015.11.05-15.46.34:625][420]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.34:653][420]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.46.34:654][420]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.46.34:663][420]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.46.34:663][420]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.46.34
+[2015.11.05-15.46.34:663][420]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.34:663][420]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.34:665][420]LogWorld: Bringing up level for play took: 0.010268
+[2015.11.05-15.46.34:665][420]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.39:794][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.46.39:826][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.46.39:847][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028C547C0E0
+[2015.11.05-15.46.43:543][472]LogRenderer: Reallocating scene render targets to support 984x904 (Frame:2481).
+[2015.11.05-15.46.43:584][473]LogRenderer: Reallocating scene render targets to support 988x904 (Frame:2483).
+[2015.11.05-15.46.43:627][474]LogRenderer: Reallocating scene render targets to support 1008x904 (Frame:2485).
+[2015.11.05-15.46.43:670][475]LogRenderer: Reallocating scene render targets to support 1044x904 (Frame:2487).
+[2015.11.05-15.46.43:712][476]LogRenderer: Reallocating scene render targets to support 1076x904 (Frame:2489).
+[2015.11.05-15.46.43:756][477]LogRenderer: Reallocating scene render targets to support 1108x904 (Frame:2491).
+[2015.11.05-15.46.43:797][478]LogRenderer: Reallocating scene render targets to support 1132x904 (Frame:2493).
+[2015.11.05-15.46.43:849][479]LogRenderer: Reallocating scene render targets to support 1152x904 (Frame:2495).
+[2015.11.05-15.46.43:892][480]LogRenderer: Reallocating scene render targets to support 1164x904 (Frame:2497).
+[2015.11.05-15.46.43:934][481]LogRenderer: Reallocating scene render targets to support 1180x904 (Frame:2499).
+[2015.11.05-15.46.43:974][482]LogRenderer: Reallocating scene render targets to support 1196x904 (Frame:2501).
+[2015.11.05-15.46.44:011][483]LogRenderer: Reallocating scene render targets to support 1216x904 (Frame:2503).
+[2015.11.05-15.46.44:059][484]LogRenderer: Reallocating scene render targets to support 1224x904 (Frame:2505).
+[2015.11.05-15.46.44:687][550]LogRenderer: Reallocating scene render targets to support 1228x904 (Frame:2574).
+[2015.11.05-15.46.46:492][760]LogRenderer: Reallocating scene render targets to support 1236x904 (Frame:2787).
+[2015.11.05-15.46.46:527][761]LogRenderer: Reallocating scene render targets to support 1252x904 (Frame:2789).
+[2015.11.05-15.46.46:576][762]LogRenderer: Reallocating scene render targets to support 1260x904 (Frame:2791).
+[2015.11.05-15.46.46:612][763]LogRenderer: Reallocating scene render targets to support 1272x904 (Frame:2793).
+[2015.11.05-15.46.46:655][764]LogRenderer: Reallocating scene render targets to support 1280x904 (Frame:2795).
+[2015.11.05-15.46.46:705][765]LogRenderer: Reallocating scene render targets to support 1288x904 (Frame:2797).
+[2015.11.05-15.46.46:785][767]LogRenderer: Reallocating scene render targets to support 1292x904 (Frame:2801).
+[2015.11.05-15.46.46:909][771]LogRenderer: Reallocating scene render targets to support 1296x904 (Frame:2808).
+[2015.11.05-15.46.47:002][773]LogRenderer: Reallocating scene render targets to support 1304x904 (Frame:2812).
+[2015.11.05-15.46.47:042][774]LogRenderer: Reallocating scene render targets to support 1308x904 (Frame:2814).
+[2015.11.05-15.46.47:131][776]LogRenderer: Reallocating scene render targets to support 1312x904 (Frame:2818).
+[2015.11.05-15.46.48:614][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.46.48:614][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.46.48:614][950]PIE: New page: PIE session: MainMenu (Nov 5, 2015, 5:46:48 PM)
+[2015.11.05-15.46.48:614][950]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2015.11.05-15.46.48:616][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001992s)
+[2015.11.05-15.46.48:617][950]LogAIModule: Creating AISystem for world MainMenu
+[2015.11.05-15.46.48:617][950]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2015.11.05-15.46.48:617][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002712s)
+[2015.11.05-15.46.48:631][950]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.46.48:635][950]LogInit: FAudioDevice initialized.
+[2015.11.05-15.46.48:670][950]LogWorld: Game class is 'GameMode'
+[2015.11.05-15.46.48:671][950]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.11.05-16.46.48
+[2015.11.05-15.46.48:671][950]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.48:671][950]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.48:671][950]LogWorld: Bringing up level for play took: 0.000840
+[2015.11.05-15.46.48:673][950]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu 0.769
+[2015.11.05-15.46.48:673][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.46.49:692][ 68]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve FirstPersonExampleMap.umap.
+[2015.11.05-15.46.49:726][ 68]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve FirstPersonExampleMap.umap.
+[2015.11.05-15.46.49:726][ 68]LogNet: Browse: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2015.11.05-15.46.49:726][ 68]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2015.11.05-15.46.49:739][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028CFB3F060
+[2015.11.05-15.46.49:739][ 68]Cmd: MEM
+[2015.11.05-15.46.49:749][ 68]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-15.46.49:749][ 68]LogMemory: Process Physical Memory: 835.72 MB used, 875.72 MB peak
+[2015.11.05-15.46.49:749][ 68]LogMemory: Process Virtual Memory: 1727.25 MB used, 1981.28 MB peak
+[2015.11.05-15.46.49:749][ 68]LogMemory: Physical Memory: 3719.83 MB used, 8134.06 MB total
+[2015.11.05-15.46.49:749][ 68]LogMemory: Virtual Memory: 2914.13 MB used, 134217728.00 MB total
+[2015.11.05-15.46.49:749][ 68]LogMemory: 
+[2015.11.05-15.46.49:749][ 68]Allocator Stats for TBB: (not implemented)
+[2015.11.05-15.46.49:842][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.46.49:886][ 68]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.46.49:886][ 68]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.46.49:896][ 68]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.46.49:896][ 68]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.46.49
+[2015.11.05-15.46.49:896][ 68]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.49:896][ 68]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.46.49:897][ 68]LogWorld: Bringing up level for play took: 0.010487
+[2015.11.05-15.46.49:898][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.47.00:410][324]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
+[2015.11.05-15.47.00:410][324]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
+[2015.11.05-15.47.00:410][324]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
+[2015.11.05-15.47.00:410][324]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
+[2015.11.05-15.47.01:193][418]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [2/1]!
+[2015.11.05-15.47.01:193][418]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [3/1]!
+[2015.11.05-15.47.01:193][418]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/1]!
+[2015.11.05-15.47.01:727][482]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [3/2]!
+[2015.11.05-15.47.01:727][482]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/2]!
+[2015.11.05-15.47.02:861][618]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/3]!
+[2015.11.05-15.47.03:919][745]LogCharacterMovement: Enemy_C_7 is stuck and failed to move!
+[2015.11.05-15.47.07:894][222]LogCharacterMovement: Enemy_C_10 is stuck and failed to move!
+[2015.11.05-15.47.07:902][223]LogCharacterMovement: Enemy_C_10 is stuck and failed to move!
+[2015.11.05-15.47.18:646][512]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [3/2]!
+[2015.11.05-15.47.18:646][512]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/2]!
+[2015.11.05-15.47.19:779][648]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [2/1]!
+[2015.11.05-15.47.19:779][648]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [3/1]!
+[2015.11.05-15.47.19:779][648]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/1]!
+[2015.11.05-15.47.21:062][802]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
+[2015.11.05-15.47.21:062][802]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
+[2015.11.05-15.47.21:062][802]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
+[2015.11.05-15.47.21:062][802]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
+[2015.11.05-15.47.22:029][918]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [0/0]!
+[2015.11.05-15.47.22:029][918]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
+[2015.11.05-15.47.22:029][918]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
+[2015.11.05-15.47.22:029][918]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
+[2015.11.05-15.47.22:029][918]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
+[2015.11.05-15.47.26:767][482]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve GameOver.umap.
+[2015.11.05-15.47.26:806][483]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve GameOver.umap.
+[2015.11.05-15.47.26:806][483]LogNet: Browse: /Game/FirstPersonCPP/Maps/GameOver
+[2015.11.05-15.47.26:806][483]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/GameOver
+[2015.11.05-15.47.26:822][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028CF56E0C0
+[2015.11.05-15.47.26:823][483]Cmd: MEM
+[2015.11.05-15.47.26:833][483]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-15.47.26:833][483]LogMemory: Process Physical Memory: 828.38 MB used, 883.70 MB peak
+[2015.11.05-15.47.26:833][483]LogMemory: Process Virtual Memory: 1655.49 MB used, 1981.28 MB peak
+[2015.11.05-15.47.26:833][483]LogMemory: Physical Memory: 3686.61 MB used, 8134.06 MB total
+[2015.11.05-15.47.26:833][483]LogMemory: Virtual Memory: 2873.29 MB used, 134217728.00 MB total
+[2015.11.05-15.47.26:833][483]LogMemory: 
+[2015.11.05-15.47.26:833][483]Allocator Stats for TBB: (not implemented)
+[2015.11.05-15.47.26:845][483]LogAIModule: Creating AISystem for world GameOver
+[2015.11.05-15.47.26:846][483]LogWorld: Game class is 'GameMode'
+[2015.11.05-15.47.26:847][483]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2015.11.05-16.47.26
+[2015.11.05-15.47.26:847][483]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.47.26:847][483]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.47.26:847][483]LogWorld: Bringing up level for play took: 0.000545
+[2015.11.05-15.47.26:848][483]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.05-15.47.28:999][741]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.47.29:027][741]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.05-15.47.29:047][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028CE84E660
+[2015.11.05-15.47.49:277][152]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.47.49:297][152]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.47.49:328][152]Cmd: MAP LOAD FILE="C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.05-15.47.49:328][152]LightingResults: New page: Lighting Build
+[2015.11.05-15.47.49:344][152]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2015.11.05-15.47.49:344][152]MapCheck: New page: Map Check
+[2015.11.05-15.47.49:344][152]LightingResults: New page: Lighting Build
+[2015.11.05-15.47.49:355][152]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028D6C09F80
+[2015.11.05-15.47.49:363][152]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.05-15.47.49:395][152]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.05-15.47.49:437][152]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.472ms to complete.
+[2015.11.05-15.47.49:437][152]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.110
+[2015.11.05-15.47.50:587][284]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.11.05-15.48.08:077][340]LogEditorViewport: Clicking on Actor (LMB): Enemy_C (Enemy5)
+[2015.11.05-15.48.13:056][893]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-15.48.13:452][893]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 107 classes and 0 folders.
+[2015.11.05-15.48.26:198][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-15.48.26:198][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.05-15.48.26:198][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.05-15.48.26:198][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-15.48.50:308][534]BlueprintLog: New page: Compile Enemy
+[2015.11.05-15.48.50:408][534]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.11.05-15.48.50:408][534]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.11.05-15.48.50:434][534]BlueprintEditorCompileResults: Info [0154.34] Compile of Enemy successful! [in 126 ms]
+[2015.11.05-15.48.54:102][936]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.48.54:102][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.48.54:102][936]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 5:48:54 PM)
+[2015.11.05-15.48.54:102][936]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-15.48.54:103][936]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.48.54:129][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026702s)
+[2015.11.05-15.48.54:130][936]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.48.54:130][936]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2015.11.05-15.48.54:130][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027814s)
+[2015.11.05-15.48.54:130][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-15.48.54:130][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-15.48.54:156][936]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.48.54:161][936]LogInit: FAudioDevice initialized.
+[2015.11.05-15.48.54:199][936]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.48.54:206][936]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.48.54:206][936]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.48.54
+[2015.11.05-15.48.54:206][936]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.48.54:206][936]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.48.54:207][936]LogWorld: Bringing up level for play took: 0.007838
+[2015.11.05-15.48.54:208][936]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.48.54:212][936]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.307
+[2015.11.05-15.48.54:212][936]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.49.03:580][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.49.03:671][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.49.03:717][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028D15F3740
+[2015.11.05-15.49.05:113][222]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.49.05:113][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.49.05:114][222]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 5:49:05 PM)
+[2015.11.05-15.49.05:114][222]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-15.49.05:114][222]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.49.05:131][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017739s)
+[2015.11.05-15.49.05:132][222]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.49.05:132][222]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2015.11.05-15.49.05:132][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018642s)
+[2015.11.05-15.49.05:158][222]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.49.05:163][222]LogInit: FAudioDevice initialized.
+[2015.11.05-15.49.05:197][222]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.49.05:204][222]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.49.05:204][222]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.49.05
+[2015.11.05-15.49.05:204][222]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.49.05:204][222]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.49.05:206][222]LogWorld: Bringing up level for play took: 0.008004
+[2015.11.05-15.49.05:206][222]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.49.05:210][222]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.694
+[2015.11.05-15.49.05:210][222]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.49.12:826][133]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.49.12:915][133]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.49.12:961][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028C52FA8E0
+[2015.11.05-15.49.59:973][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.50.02:016][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.50.02:662][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.50.11:885][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.50.15:065][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.50.31:924][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.50.32:564][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.50.33:169][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.50.50:223][472]Cmd: DELETE
+[2015.11.05-15.50.50:223][472]Cmd: ACTOR DELETE
+[2015.11.05-15.50.50:223][472]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2015.11.05-15.50.50:223][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.05-15.50.50:224][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-15.50.50:224][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.11.05-15.50.50:224][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-15.50.50:247][472]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2015.11.05-15.50.52:523][725]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP5)
+[2015.11.05-15.50.53:191][800]Cmd: DELETE
+[2015.11.05-15.50.53:191][800]Cmd: ACTOR DELETE
+[2015.11.05-15.50.53:191][800]LogEditorActor: Deleted Actor: DoorBP_C
+[2015.11.05-15.50.53:211][800]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2015.11.05-15.51.07:321][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.51.11:833][ 19]LogEditorViewport: Clicking on Actor (LMB): RecastNavMesh (RecastNavMesh-Default)
+[2015.11.05-15.51.12:307][ 71]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP2)
+[2015.11.05-15.51.14:254][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.51.14:987][382]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP2)
+[2015.11.05-15.51.55:846][195]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.51.55:847][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.51.55:847][195]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 5:51:55 PM)
+[2015.11.05-15.51.55:847][195]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-15.51.55:848][195]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.51.55:866][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019136s)
+[2015.11.05-15.51.55:867][195]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.51.55:867][195]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2015.11.05-15.51.55:867][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020294s)
+[2015.11.05-15.51.55:894][195]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.51.55:900][195]LogInit: FAudioDevice initialized.
+[2015.11.05-15.51.55:935][195]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.51.55:942][195]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.51.55:942][195]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.51.55
+[2015.11.05-15.51.55:942][195]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.51.55:942][195]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.51.55:943][195]LogWorld: Bringing up level for play took: 0.007757
+[2015.11.05-15.51.55:944][195]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.51.55:948][195]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.043
+[2015.11.05-15.51.55:948][195]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.05:853][262]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.05:914][262]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.05:958][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028C6E468E0
+[2015.11.05-15.52.07:052][393]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP)
+[2015.11.05-15.52.10:062][743]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.10:062][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.52.10:062][743]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 5:52:10 PM)
+[2015.11.05-15.52.10:062][743]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-15.52.10:063][743]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.52.10:080][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018124s)
+[2015.11.05-15.52.10:081][743]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.52.10:081][743]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2015.11.05-15.52.10:081][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019144s)
+[2015.11.05-15.52.10:107][743]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.52.10:112][743]LogInit: FAudioDevice initialized.
+[2015.11.05-15.52.10:146][743]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.52.10:154][743]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.52.10:154][743]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.52.10
+[2015.11.05-15.52.10:154][743]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.52.10:154][743]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.52.10:155][743]LogWorld: Bringing up level for play took: 0.008267
+[2015.11.05-15.52.10:156][743]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.52.10:160][743]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.255
+[2015.11.05-15.52.10:160][743]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.21:484][ 99]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.21:543][ 99]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.21:587][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028B1584B80
+[2015.11.05-15.52.22:607][221]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP2)
+[2015.11.05-15.52.25:592][570]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.25:592][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.52.25:592][570]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 5:52:25 PM)
+[2015.11.05-15.52.25:592][570]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-15.52.25:593][570]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.52.25:610][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017781s)
+[2015.11.05-15.52.25:611][570]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.52.25:611][570]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2015.11.05-15.52.25:611][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018823s)
+[2015.11.05-15.52.25:637][570]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.52.25:642][570]LogInit: FAudioDevice initialized.
+[2015.11.05-15.52.25:676][570]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.52.25:684][570]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.52.25:684][570]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.52.25
+[2015.11.05-15.52.25:684][570]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.52.25:684][570]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.52.25:686][570]LogWorld: Bringing up level for play took: 0.008359
+[2015.11.05-15.52.25:686][570]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.52.25:690][570]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.214
+[2015.11.05-15.52.25:691][570]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.44:464][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.44:522][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.44:565][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028A2B82840
+[2015.11.05-15.52.47:611][163]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP3)
+[2015.11.05-15.52.50:862][545]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.50:862][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.52.50:862][545]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 5:52:50 PM)
+[2015.11.05-15.52.50:862][545]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-15.52.50:863][545]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.52.50:881][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019430s)
+[2015.11.05-15.52.50:882][545]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.52.50:882][545]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2015.11.05-15.52.50:882][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020504s)
+[2015.11.05-15.52.50:908][545]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.52.50:912][545]LogInit: FAudioDevice initialized.
+[2015.11.05-15.52.50:944][545]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.52.50:952][545]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.52.50:952][545]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.52.50
+[2015.11.05-15.52.50:952][545]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.52.50:952][545]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.52.50:953][545]LogWorld: Bringing up level for play took: 0.007871
+[2015.11.05-15.52.50:954][545]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.52.50:958][545]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.053
+[2015.11.05-15.52.50:958][545]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.52.59:541][568]LogPackageName: SearchForPackageOnDisk took   0.036s to resolve GameOver.umap.
+[2015.11.05-15.52.59:581][569]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve GameOver.umap.
+[2015.11.05-15.52.59:581][569]LogNet: Browse: /Game/FirstPersonCPP/Maps/GameOver
+[2015.11.05-15.52.59:581][569]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/GameOver
+[2015.11.05-15.52.59:602][569]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028C5362700
+[2015.11.05-15.52.59:606][569]Cmd: MEM
+[2015.11.05-15.52.59:625][569]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-15.52.59:625][569]LogMemory: Process Physical Memory: 1049.55 MB used, 1070.09 MB peak
+[2015.11.05-15.52.59:625][569]LogMemory: Process Virtual Memory: 1957.16 MB used, 2216.38 MB peak
+[2015.11.05-15.52.59:625][569]LogMemory: Physical Memory: 3905.80 MB used, 8134.06 MB total
+[2015.11.05-15.52.59:625][569]LogMemory: Virtual Memory: 2932.59 MB used, 134217728.00 MB total
+[2015.11.05-15.52.59:625][569]LogMemory: 
+[2015.11.05-15.52.59:625][569]Allocator Stats for TBB: (not implemented)
+[2015.11.05-15.52.59:646][569]LogAIModule: Creating AISystem for world GameOver
+[2015.11.05-15.52.59:646][569]LogWorld: Game class is 'GameMode'
+[2015.11.05-15.52.59:647][569]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2015.11.05-16.52.59
+[2015.11.05-15.52.59:647][569]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.52.59:647][569]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.52.59:648][569]LogWorld: Bringing up level for play took: 0.000641
+[2015.11.05-15.52.59:648][569]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.05-15.53.00:191][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.53.00:246][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.53.00:288][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028AE3A6200
+[2015.11.05-15.53.03:625][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.53.05:162][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.53.05:617][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.53.06:453][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.53.07:362][419]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP3)
+[2015.11.05-15.53.08:386][530]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.11.05-15.53.09:044][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.53.10:189][737]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP3)
+[2015.11.05-15.53.24:045][391]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP2)
+[2015.11.05-15.53.25:387][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.53.27:391][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.53.27:956][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.53.36:925][880]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP2)
+[2015.11.05-15.53.37:964][999]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP2)
+[2015.11.05-15.53.40:313][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.53.40:923][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.05-15.53.41:742][443]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP2)
+[2015.11.05-15.54.39:364][330]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.54.39:364][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.54.39:364][330]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 5:54:39 PM)
+[2015.11.05-15.54.39:364][330]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-15.54.39:365][330]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.54.39:384][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019290s)
+[2015.11.05-15.54.39:384][330]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.54.39:385][330]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2015.11.05-15.54.39:385][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020275s)
+[2015.11.05-15.54.39:411][330]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.54.39:416][330]LogInit: FAudioDevice initialized.
+[2015.11.05-15.54.39:453][330]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.54.39:461][330]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.54.39:461][330]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.54.39
+[2015.11.05-15.54.39:461][330]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.54.39:461][330]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.54.39:462][330]LogWorld: Bringing up level for play took: 0.008228
+[2015.11.05-15.54.39:463][330]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.54.39:467][330]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.437
+[2015.11.05-15.54.39:467][330]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.55.08:911][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.55.08:971][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.55.09:016][860]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028E33A1300
+[2015.11.05-15.55.21:387][294]Cmd: DELETE
+[2015.11.05-15.55.21:387][294]Cmd: ACTOR DELETE
+[2015.11.05-15.55.21:387][294]LogEditorActor: Deleted Actor: FirstPersonProjectile_C
+[2015.11.05-15.55.21:388][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.05-15.55.21:388][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-15.55.21:388][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.11.05-15.55.21:388][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-15.55.21:408][294]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2015.11.05-15.55.49:693][668]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.05-15.55.56:207][424]Cmd: EDIT COPY
+[2015.11.05-15.55.56:463][451]Cmd: EDIT PASTE
+[2015.11.05-15.56.01:729][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.56.01:729][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-15.56.01:729][ 66]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 5:56:01 PM)
+[2015.11.05-15.56.01:729][ 66]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-15.56.01:730][ 66]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.56.01:748][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018639s)
+[2015.11.05-15.56.01:748][ 66]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-15.56.01:748][ 66]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2015.11.05-15.56.01:749][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019564s)
+[2015.11.05-15.56.01:749][ 66]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.05-15.56.01:749][ 66]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-15.56.01:749][ 66]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.11.05-15.56.01:749][ 66]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-15.56.01:775][ 66]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-15.56.01:780][ 66]LogInit: FAudioDevice initialized.
+[2015.11.05-15.56.01:813][ 66]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-15.56.01:820][ 66]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-15.56.01:820][ 66]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-16.56.01
+[2015.11.05-15.56.01:820][ 66]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.56.01:820][ 66]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.56.01:822][ 66]LogWorld: Bringing up level for play took: 0.008062
+[2015.11.05-15.56.01:822][ 66]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-15.56.01:826][ 66]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.078
+[2015.11.05-15.56.01:826][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.56.08:117][814]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve GameOver.umap.
+[2015.11.05-15.56.08:156][815]LogPackageName: SearchForPackageOnDisk took   0.034s to resolve GameOver.umap.
+[2015.11.05-15.56.08:156][815]LogNet: Browse: /Game/FirstPersonCPP/Maps/GameOver
+[2015.11.05-15.56.08:156][815]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/GameOver
+[2015.11.05-15.56.08:177][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028B15854E0
+[2015.11.05-15.56.08:181][815]Cmd: MEM
+[2015.11.05-15.56.08:200][815]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-15.56.08:200][815]LogMemory: Process Physical Memory: 1062.21 MB used, 1095.31 MB peak
+[2015.11.05-15.56.08:200][815]LogMemory: Process Virtual Memory: 1974.13 MB used, 2216.38 MB peak
+[2015.11.05-15.56.08:200][815]LogMemory: Physical Memory: 3910.91 MB used, 8134.06 MB total
+[2015.11.05-15.56.08:200][815]LogMemory: Virtual Memory: 2941.03 MB used, 134217728.00 MB total
+[2015.11.05-15.56.08:200][815]LogMemory: 
+[2015.11.05-15.56.08:200][815]Allocator Stats for TBB: (not implemented)
+[2015.11.05-15.56.08:213][815]LogAIModule: Creating AISystem for world GameOver
+[2015.11.05-15.56.08:213][815]LogWorld: Game class is 'GameMode'
+[2015.11.05-15.56.08:214][815]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver up for play (max tick rate 0) at 2015.11.05-16.56.08
+[2015.11.05-15.56.08:214][815]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.56.08:214][815]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_GameOver.GameOver:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-15.56.08:214][815]LogWorld: Bringing up level for play took: 0.000662
+[2015.11.05-15.56.08:215][815]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.05-15.56.09:058][916]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.56.09:098][916]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-15.56.09:138][917]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028A2C7F740
+[2015.11.05-15.56.20:795][256]LogSavePackage: Save=92.703751ms
+[2015.11.05-15.56.20:795][256]LogSavePackage: Moving 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Saved/FirstPersonExampleMapB31967D54E6C3B2FA00149BC67F5BE0E.tmp' to 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2015.11.05-15.56.20:798][256]LogSavePackage: Total save time: 109.212294ms
+[2015.11.05-15.56.20:798][256]LogSavePackage:Warning: Finished SavePackage C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2015.11.05-15.59.58:761][630]BlueprintLog: New page: Compile Enemy
+[2015.11.05-15.59.58:804][630]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.05-15.59.58:804][630]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-15.59.58:805][630]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.11.05-15.59.58:805][630]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-15.59.58:830][630]BlueprintEditorCompileResults: Info [0822.74] Compile of Enemy successful! [in 68 ms]
+[2015.11.05-16.00.00:703][835]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.00.00:703][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-16.00.00:703][835]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 6:00:00 PM)
+[2015.11.05-16.00.00:703][835]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-16.00.00:704][835]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-16.00.00:726][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022040s)
+[2015.11.05-16.00.00:727][835]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-16.00.00:727][835]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2015.11.05-16.00.00:727][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023244s)
+[2015.11.05-16.00.00:727][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-16.00.00:727][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-16.00.00:754][835]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-16.00.00:759][835]LogInit: FAudioDevice initialized.
+[2015.11.05-16.00.00:795][835]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-16.00.00:802][835]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-16.00.00:802][835]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-17.00.00
+[2015.11.05-16.00.00:802][835]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-16.00.00:802][835]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-16.00.00:803][835]LogWorld: Bringing up level for play took: 0.007957
+[2015.11.05-16.00.00:804][835]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-16.00.00:808][835]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.903
+[2015.11.05-16.00.00:808][835]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.00.10:218][961]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [1/0]!
+[2015.11.05-16.00.10:218][961]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [2/0]!
+[2015.11.05-16.00.10:218][961]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [3/0]!
+[2015.11.05-16.00.10:218][961]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/0]!
+[2015.11.05-16.00.10:951][ 49]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [2/1]!
+[2015.11.05-16.00.10:951][ 49]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [3/1]!
+[2015.11.05-16.00.10:951][ 49]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/1]!
+[2015.11.05-16.00.11:593][126]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [3/2]!
+[2015.11.05-16.00.11:593][126]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/2]!
+[2015.11.05-16.00.13:135][311]LogScript:Warning: Attempted to get an item from array Inventory out of bounds [4/3]!
+[2015.11.05-16.00.13:559][362]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.00.13:599][362]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.00.13:619][362]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028C5325440
+[2015.11.05-16.00.34:293][451]BlueprintLog: New page: Compile Enemy
+[2015.11.05-16.00.34:336][451]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2015.11.05-16.00.34:336][451]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-16.00.34:337][451]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.11.05-16.00.34:337][451]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-16.00.34:362][451]BlueprintEditorCompileResults: Info [0858.27] Compile of Enemy successful! [in 68 ms]
+[2015.11.05-16.00.36:079][639]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.00.36:079][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-16.00.36:079][639]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 6:00:36 PM)
+[2015.11.05-16.00.36:079][639]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-16.00.36:080][639]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-16.00.36:100][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020740s)
+[2015.11.05-16.00.36:100][639]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-16.00.36:100][639]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2015.11.05-16.00.36:100][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021609s)
+[2015.11.05-16.00.36:100][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-16.00.36:100][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-16.00.36:127][639]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-16.00.36:132][639]LogInit: FAudioDevice initialized.
+[2015.11.05-16.00.36:170][639]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-16.00.36:177][639]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-16.00.36:177][639]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-17.00.36
+[2015.11.05-16.00.36:178][639]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-16.00.36:178][639]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-16.00.36:179][639]LogWorld: Bringing up level for play took: 0.008230
+[2015.11.05-16.00.36:180][639]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-16.00.36:184][639]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.279
+[2015.11.05-16.00.36:184][639]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.00.44:450][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.00.44:489][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.00.44:508][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028AE3A47C0
+[2015.11.05-16.01.03:627][379]BlueprintLog: New page: Compile Enemy
+[2015.11.05-16.01.03:669][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-16.01.03:669][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-16.01.03:693][379]BlueprintEditorCompileResults: Info [0887.60] Compile of Enemy successful! [in 66 ms]
+[2015.11.05-16.01.05:379][567]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.01.05:379][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-16.01.05:379][567]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2015, 6:01:05 PM)
+[2015.11.05-16.01.05:379][567]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.05-16.01.05:380][567]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-16.01.05:400][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021382s)
+[2015.11.05-16.01.05:401][567]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.05-16.01.05:401][567]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2015.11.05-16.01.05:401][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022345s)
+[2015.11.05-16.01.05:401][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.05-16.01.05:401][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.05-16.01.05:427][567]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.05-16.01.05:432][567]LogInit: FAudioDevice initialized.
+[2015.11.05-16.01.05:465][567]LogWorld: Game class is 'TheGameGameMode'
+[2015.11.05-16.01.05:472][567]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.05-16.01.05:472][567]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.05-17.01.05
+[2015.11.05-16.01.05:472][567]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-16.01.05:472][567]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-16.01.05:474][567]LogWorld: Bringing up level for play took: 0.008347
+[2015.11.05-16.01.05:475][567]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2015.11.05-16.01.05:479][567]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.426
+[2015.11.05-16.01.05:479][567]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.01.18:225][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.01.18:268][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.05-16.01.18:288][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028A2344E00
+[2015.11.05-16.01.23:530][505]LogEditorViewport: Clicking on Actor (LMB): Enemy_C (Enemy5)
+[2015.11.05-16.01.59:697][149]LogSavePackage: Save=93.647255ms
+[2015.11.05-16.01.59:697][149]LogSavePackage: Moving 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Saved/FirstPersonExampleMap831C07734F317C9534B87D91C11493F6.tmp' to 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2015.11.05-16.01.59:699][149]LogSavePackage: Total save time: 111.212008ms
+[2015.11.05-16.01.59:699][149]LogSavePackage:Warning: Finished SavePackage C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2015.11.05-16.02.02:661][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/Enemy" FILE="C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/FirstPersonCPP/Blueprints/Enemy.uasset" SILENT=true
+[2015.11.05-16.02.02:708][225]LogSavePackage: Save=37.852287ms
+[2015.11.05-16.02.02:708][225]LogSavePackage: Moving 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Saved/Enemy205F3B62463D45725592999DB579EDD4.tmp' to 'C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/FirstPersonCPP/Blueprints/Enemy.uasset'
+[2015.11.05-16.02.02:710][225]LogSavePackage: Total save time: 47.572751ms
+[2015.11.05-16.02.02:710][225]LogSavePackage:Warning: Finished SavePackage C:/Users/snabel/Documents/Unreal Projects/TheGame/Content/FirstPersonCPP/Blueprints/Enemy.uasset
+[2015.11.05-16.02.02:846][225]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.05-16.02.03:086][226]Cmd: QUIT_EDITOR
+[2015.11.05-16.02.04:246][226]LogExit: Preparing to exit.
+[2015.11.05-16.02.04:947][226]LogExit: Editor shut down
+[2015.11.05-16.02.04:947][226]LogExit: Transaction tracking system shut down
+[2015.11.05-16.02.04:949][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028E3E1B880
+[2015.11.05-16.02.04:949][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028D6C0A980
+[2015.11.05-16.02.04:949][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028E447CC20
+[2015.11.05-16.02.04:949][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028E447CA40
+[2015.11.05-16.02.04:950][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028C5436340
+[2015.11.05-16.02.04:950][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028C7F03100
+[2015.11.05-16.02.04:950][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028D6C09D00
+[2015.11.05-16.02.05:123][226]LogExit: Object subsystem successfully closed.
+[2015.11.05-16.02.05:141][226]LogD3D11RHI: Shutdown
+[2015.11.05-16.02.05:141][226]LogD3D11RHI: CleanupD3DDevice
+[2015.11.05-16.02.05:202][226]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.05-16.02.05:213][226]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.11.05-16.02.05:213][226]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.11.05-16.02.05:213][226]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.11.05-16.02.05:213][226]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.11.05-16.02.05:213][226]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.11.05-16.02.05:213][226]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.11.05-16.02.05:214][226]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.11.05-16.02.05:842][226]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.11.05-16.02.05:843][226]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.11.05-16.02.05:843][226]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.11.05-16.02.05:843][226]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.11.05-16.02.05:843][226]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.11.05-16.02.05:843][226]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.11.05-16.02.05:843][226]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.11.05-16.02.05:843][226]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.11.05-16.02.05:843][226]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.11.05-16.02.05:843][226]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.11.05-16.02.05:844][226]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.11.05-16.02.05:844][226]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.11.05-16.02.05:844][226]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.11.05-16.02.05:844][226]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.11.05-16.02.05:844][226]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.11.05-16.02.05:844][226]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.11.05-16.02.05:844][226]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.11.05-16.02.05:844][226]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.11.05-16.02.05:844][226]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.11.05-16.02.05:844][226]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.11.05-16.02.05:845][226]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.11.05-16.02.05:845][226]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.11.05-16.02.05:845][226]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.11.05-16.02.05:845][226]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.11.05-16.02.05:849][226]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.11.05-16.02.05:950][226]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.11.05-16.02.05:950][226]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.05-16.02.05:950][226]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.05-16.02.05:950][226]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.05-16.02.05:950][226]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.05-16.02.05:950][226]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.05-16.02.05:950][226]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.05-16.02.05:950][226]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.05-16.02.05:977][226]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.05-16.02.05:978][226]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.05-16.02.05:978][226]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.05-16.02.05:979][226]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.11.05-16.02.05:980][226]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.11.05-16.02.06:026][226]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.11.05-16.02.06:027][226]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.11.05-16.02.06:027][226]LogModuleManager: Shutting down and abandoning module TheGame (86)
+[2015.11.05-16.02.06:027][226]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.05-16.02.06:128][226]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.05-16.02.06:128][226]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.05-16.02.06:128][226]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.05-16.02.06:136][226]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.05-16.02.06:136][226]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.05-16.02.06:136][226]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.05-16.02.06:136][226]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.05-16.02.06:136][226]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.05-16.02.06:136][226]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.05-16.02.06:137][226]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.05-16.02.06:137][226]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.05-16.02.06:137][226]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.05-16.02.06:137][226]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.05-16.02.06:137][226]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.05-16.02.06:137][226]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.05-16.02.06:137][226]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.05-16.02.06:137][226]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.05-16.02.06:137][226]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.05-16.02.06:137][226]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.05-16.02.06:142][226]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.05-16.02.06:142][226]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.05-16.02.06:142][226]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.05-16.02.06:142][226]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.05-16.02.06:142][226]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.05-16.02.06:142][226]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.05-16.02.06:142][226]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.05-16.02.06:142][226]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.05-16.02.06:142][226]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.05-16.02.06:143][226]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.05-16.02.06:147][226]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.05-16.02.06:170][226]LogDerivedDataCache: Shutdown
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.05-16.02.06:170][226]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.05-16.02.06:171][226]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.05-16.02.06:171][226]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.05-16.02.08:173][226]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.05-16.02.08:173][226]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.05-16.02.08:173][226]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.05-16.02.08:173][226]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.05-16.02.08:173][226]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.05-16.02.08:173][226]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.05-16.02.08:174][226]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.05-16.02.08:174][226]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.05-16.02.08:174][226]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.05-16.02.08:174][226]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.05-16.02.08:174][226]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.05-16.02.08:174][226]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.05-16.02.08:174][226]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.05-16.02.08:174][226]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.05-16.02.08:174][226]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.05-16.02.08:174][226]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.05-16.02.08:175][226]LogExit: Exiting.
+[2015.11.05-16.02.08:176][226]Log file closed, 11/05/15 17:02:08
